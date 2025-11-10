@@ -20,9 +20,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bannerflow_app',
-    'campaigns',    # ← ДОБАВЛЯЕМ
-    'users',        # ← ДОБАВЛЯЕМ
-    'analytics',    # ← ДОБАВЛЯЕМ
+    'campaigns',
+    'users',
+    'analytics',
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
