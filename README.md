@@ -3,11 +3,11 @@ BannerFlow Manager
 
 Структура проекта BannerFlow_Manager  
 bannerflow_app - основное приложение  
-      &emsp;migrations - Миграции базы данных  
-      &emsp;models.py - Модели Campaign и Banner  
-      &emsp;services.py - Бизнес-логика  
-      &emsp;urls.py - URL-ы приложения  
-      &emsp;views.py - Представления (home, api_banners)  
+&emsp;migrations - Миграции базы данных  
+&emsp;models.py - Модели Campaign и Banner  
+&emsp;services.py - Бизнес-логика  
+&emsp;urls.py - URL-ы приложения  
+&emsp;views.py - Представления (home, api_banners)  
 bannerflow_project - Настройки Django  
 myenv - Виртуальное окружение Python  
 db.sqlite3 - База данных SQLite  
@@ -24,16 +24,15 @@ my_django_env - Переменные окружения
 5. Открытие в браузере http://127.0.0.1:8000/  
 
 Модели данных  
-
 Campaign (Кампании)  
-  &emsp;name - Название кампании  
-  &emsp;budget - Бюджет кампании  
-  &emsp;start_date - Дата начала  
-  &emsp;is_active - Статус активности  
+&emsp;name - Название кампании  
+&emsp;budget - Бюджет кампании  
+&emsp;start_date - Дата начала  
+&emsp;is_active - Статус активности  
 Banner (Баннеры)  
-  &emsp;campaign - Связь с кампанией  
-  &emsp;image_url - URL изображения  
-  &emsp;title - Заголовок баннера  
+&emsp;campaign - Связь с кампанией  
+&emsp;image_url - URL изображения  
+&emsp;title - Заголовок баннера  
 
 Технологии  
 Python 3.13  
