@@ -2,8 +2,8 @@ BannerFlow Manager
 Веб-приложение для управления рекламными баннерами в играх.
 
 Структура проекта BannerFlow_Manager  
-bannerflow_app - основное приложение  
-      &emsp;migrations - Миграции базы данных  
+bannerflow_app - основное приложение
+      &emsp;migrations - Миграции базы данных
       &emsp;models.py - Модели Campaign и Banner  
       &emsp;services.py - Бизнес-логика  
       &emsp;urls.py - URL-ы приложения  
