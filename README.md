@@ -2,20 +2,20 @@ BannerFlow Manager
 Веб-приложение для управления рекламными баннерами в играх.
 
 Структура проекта
-BannerFlow_Manager
-  -bannerflow_app - основное приложение
-    -migrations - Миграции базы данных
-    -models.py - Модели Campaign и Banner
-    -services.py - Бизнес-логика
-    -urls.py - URL-ы приложения
-    -views.py - Представления (home, api_banners)
-  bannerflow_project - Настройки Django
-  myenv - Виртуальное окружение Python
-  db.sqlite3 - База данных SQLite
-  manage.py - Django management script
-  README.md - Документация
-  requirements.txt - Зависимости Python
-  my_django_env - Переменные окружения
+BannerFlow_Manager  
+  bannerflow_app - основное приложение  
+    migrations - Миграции базы данных  
+    models.py - Модели Campaign и Banner  
+    services.py - Бизнес-логика  
+    urls.py - URL-ы приложения  
+    views.py - Представления (home, api_banners)  
+  bannerflow_project - Настройки Django  
+  myenv - Виртуальное окружение Python  
+  db.sqlite3 - База данных SQLite  
+  manage.py - Django management script  
+  README.md - Документация  
+  requirements.txt - Зависимости Python  
+  my_django_env - Переменные окружения  
 
 Быстрый старт
 1. Активация виртуального окружения source myenv/bin/activate
