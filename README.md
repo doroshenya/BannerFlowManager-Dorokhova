@@ -21,5 +21,6 @@
 ## UML диаграммы
 - Use Case диаграмма
 <img width="425" height="451" alt="image" src="https://github.com/user-attachments/assets/1a94f0ff-bf68-4a4d-9ee2-e2bfdf01d6c5" />
+
 - Deployment диаграмма
 <img width="412" height="423" alt="image" src="https://github.com/user-attachments/assets/35eef70d-e972-4886-b01d-dfc54e8bae37" />
