@@ -1,4 +1,4 @@
-<img width="1020" height="413" alt="image" src="https://github.com/user-attachments/assets/e99f41f0-1c2b-466c-83af-36dfd25f3fb2" />BannerFlow Manager
+BannerFlow Manager
 Веб-приложение для управления рекламными баннерами в играх с генерацией кода для Godot Engine.
 
 Быстрый старт
@@ -16,13 +16,13 @@ python manage.py runserver
 Откройте в браузере: http://127.0.0.1:8000/
 
 Структура проекта
-&emsp bannerflow_app/          # Основное приложение Django
-&emsp ├── migrations/          # Миграции БД
-&emsp├── models.py           # Модели данных
-&emsp├── views.py            # Контроллеры
-&emsp├── services.py         # Бизнес-логика
-&emsp├── banner_generator.py # Генератор баннеров
-&emsp└── data_parser.py      # Парсер CSV/XLSX
+bannerflow_app/          # Основное приложение Django  
+&emsp migrations/          # Миграции БД  
+&emsp├── models.py           # Модели данных  
+&emsp├── views.py            # Контроллеры  
+&emsp├── services.py         # Бизнес-логика  
+&emsp├── banner_generator.py # Генератор баннеров  
+&emsp└── data_parser.py      # Парсер CSV/XLSX  
 
 bannerflow_project/     # Настройки проекта
 ├── settings.py         # Конфигурация
