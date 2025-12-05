@@ -1,47 +1,85 @@
 BannerFlow Manager
-Веб-приложение для управления рекламными баннерами в играх.
-
-Структура проекта BannerFlow_Manager  
-bannerflow_app - основное приложение  
-&emsp;migrations - Миграции базы данных  
-&emsp;models.py - Модели Campaign и Banner  
-&emsp;services.py - Бизнес-логика  
-&emsp;urls.py - URL-ы приложения  
-&emsp;views.py - Представления (home, api_banners)  
-bannerflow_project - Настройки Django  
-myenv - Виртуальное окружение Python  
-db.sqlite3 - База данных SQLite  
-manage.py - Django management script  
-README.md - Документация  
-requirements.txt - Зависимости Python  
-my_django_env - Переменные окружения  
+Веб-приложение для управления рекламными баннерами в играх с генерацией кода для Godot Engine.
 
 Быстрый старт
-1. Активация виртуального окружения source myenv/bin/activate  
-2. Установка зависимостей pip install -r requirements.txt  
-3. Применение миграции базы данных python manage.py migrate  
-4. Запуск сервера разработки python manage.py runserver  
-5. Открытие в браузере http://127.0.0.1:8000/  
+Активация виртуального окружения
+source myenv/bin/activate
 
-Модели данных  
-Campaign (Кампании)  
-&emsp;name - Название кампании  
-&emsp;budget - Бюджет кампании  
-&emsp;start_date - Дата начала  
-&emsp;is_active - Статус активности  
-Banner (Баннеры)  
-&emsp;campaign - Связь с кампанией  
-&emsp;image_url - URL изображения  
-&emsp;title - Заголовок баннера  
+Установка зависимостей
+pip install -r requirements.txt
 
-Технологии  
-Python 3.13  
-Django 5.2.8  
-SQLite  
+Настройка базы данных
+python manage.py migrate
+
+Запуск сервера
+python manage.py runserver
+Откройте в браузере: http://127.0.0.1:8000/
+
+Структура проекта
+bannerflow_app/          # Основное приложение Django
+├── migrations/          # Миграции БД
+├── models.py           # Модели данных
+├── views.py            # Контроллеры
+├── services.py         # Бизнес-логика
+├── banner_generator.py # Генератор баннеров
+└── data_parser.py      # Парсер CSV/XLSX
+
+bannerflow_project/     # Настройки проекта
+├── settings.py         # Конфигурация
+└── urls.py             # URL маршруты
+
+docs/                   # Документация
+├── html/              # Doxygen HTML
+└── pdf_output/        # PDF документация
+
+media/                  # Медиафайлы
+├── banners/           # Сгенерированные баннеры
+└── exports/godot/     # Скрипты для Godot
+
+.gitignore             # Игнорируемые файлы
+requirements.txt       # Зависимости Python
+manage.py             # Django скрипт
+pytest.ini           # Конфигурация тестов
+doxygen.config       # Конфигурация Doxygen
+Основные возможности
+Парсинг игровых данных - загрузка CSV/XLSX файлов
+Генерация баннеров - создание рекламных баннеров
+Экспорт в Godot - автоматическая генерация .gd скриптов
+A/B тестирование - сравнение эффективности баннеров
+Полная документация - Doxygen + LaTeX
+
+Модели данных
+Campaign - Рекламные кампании
+Banner - Баннеры
+BannerTemplate - Шаблоны баннеров
+GameData - Игровые данные
+ABTest - A/B тесты
+GeneratedBanner - Сгенерированные баннеры
+
+Тестирование
+# Запуск всех тестов
+./run_tests.sh
+
+Запуск с покрытием
+pytest --cov=bannerflow_app tests/
+
+Документация
+Генерация HTML документации
+doxygen doxygen.config
+Файлы доступны в docs/html/
+
+Технологии
+Python 3.13 + Django 5.2.8
+SQLite - база данных
+Pillow - обработка изображений
+pandas - анализ данных
+Doxygen - документация
+pytest - тестирование
 
 UML диаграммы  
 Use Case диаграмма  
-<img width="425" height="451" alt="image" src="https://github.com/user-attachments/assets/1a94f0ff-bf68-4a4d-9ee2-e2bfdf01d6c5" />  
+<img width="1020" height="413" alt="image" src="https://github.com/user-attachments/assets/6cceb00f-b83b-452c-9a72-87b06852bb85" />
+ 
 
 Deployment диаграмма  
 <img width="412" height="423" alt="image" src="https://github.com/user-attachments/assets/35eef70d-e972-4886-b01d-dfc54e8bae37" />  
