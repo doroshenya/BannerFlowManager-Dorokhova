@@ -1,0 +1,19 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,267,164,293"/>
+<area shape="rect" id="Node000001" href="$classbannerflow__app_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="258,5,493,45"/>
+<area shape="poly" id="edge10_Node000000_Node000001" title=" " alt="" coords="90,253,105,209,130,155,164,101,186,76,210,55,233,42,257,33,259,38,235,47,214,60,190,80,168,104,134,158,110,211,95,255"/>
+<area shape="rect" id="Node000002" href="$classbannerflow__app_1_1migrations_1_10002__campaign__start__date_1_1Migration.html" title=" " alt="" coords="258,69,493,109"/>
+<area shape="poly" id="edge11_Node000000_Node000002" title=" " alt="" coords="96,254,114,222,140,186,172,149,211,119,257,99,259,104,213,124,176,153,144,189,119,225,101,256"/>
+<area shape="rect" id="Node000003" href="$classbannerflow__app_1_1migrations_1_10003__campaign__end__date__campaign__target__game__version__and__more_1_1Migration.html" title=" " alt="" coords="223,134,528,189"/>
+<area shape="poly" id="edge12_Node000000_Node000003" title=" " alt="" coords="112,257,157,226,211,198,241,186,243,191,213,202,159,231,115,261"/>
+<area shape="rect" id="Node000004" href="$classbannerflow__app_1_1migrations_1_10004__campaign__is__ab__test__abtest__campaignstatistics_1_1Migration.html" title=" " alt="" coords="258,213,493,267"/>
+<area shape="poly" id="edge13_Node000000_Node000004" title=" " alt="" coords="177,265,257,253,258,259,178,270"/>
+<area shape="rect" id="Node000005" href="$classbannerflow__app_1_1migrations_1_10005__remove__banner__image__url__banner__media__file__and__more_1_1Migration.html" title=" " alt="" coords="248,291,503,346"/>
+<area shape="poly" id="edge14_Node000000_Node000005" title=" " alt="" coords="178,290,248,299,248,304,178,295"/>
+<area shape="rect" id="Node000006" href="$classbannerflow__app_1_1migrations_1_10006__alter__banner__media__file_1_1Migration.html" title=" " alt="" coords="249,371,501,411"/>
+<area shape="poly" id="edge15_Node000000_Node000006" title=" " alt="" coords="115,299,160,328,213,355,254,368,252,373,211,360,157,333,112,303"/>
+<area shape="rect" id="Node000007" href="$classbannerflow__app_1_1migrations_1_10007__alter__banner__media__file_1_1Migration.html" title=" " alt="" coords="249,435,501,475"/>
+<area shape="poly" id="edge16_Node000000_Node000007" title=" " alt="" coords="102,303,147,363,178,394,213,420,250,436,248,441,211,425,174,399,143,366,98,306"/>
+<area shape="rect" id="Node000008" href="$classbannerflow__app_1_1migrations_1_10008__bannertemplate__gamedata__generatedbanner_1_1Migration.html" title=" " alt="" coords="212,499,539,554"/>
+<area shape="poly" id="edge17_Node000000_Node000008" title=" " alt="" coords="97,305,113,346,138,394,171,443,191,465,214,485,234,497,231,501,210,489,187,469,167,447,133,397,108,348,92,307"/>
+</map>

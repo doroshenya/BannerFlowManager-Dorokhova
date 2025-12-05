@@ -1,0 +1,77 @@
+{% extends 'bannerflow_app/base.html' %}
+
+{% block title %}Генератор баннеров - BannerFlow Manager{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>🎮 Генератор интерактивных игровых баннеров</h1>
+    <p class="lead">Создавайте HTML5 баннеры с данными из игр</p>
+    
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Шаг 1: Выберите шаблон</h5>
+                </div>
+                <div class="card-body">
+                    <form method="post" action="{% url 'generate_banner' %}">
+                        {% csrf_token %}
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Название баннера:</label>
+                            <input type="text" name="name" class="form-control" value="Мой игровой баннер" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Шаблон баннера:</label>
+                            <select name="template" class="form-select" required>
+                                {% for template in templates %}
+                                <option value="{{ template.id }}">
+                                    {{ template.name }} ({{ template.width }}x{{ template.height }})
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Данные игры:</label>
+                            <select name="game_data" class="form-select" required>
+                                {% for data in game_data %}
+                                <option value="{{ data.id }}">
+                                    {{ data.game_name }} - {{ data.player_name }} (Ур. {{ data.level }})
+                                </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            🎨 Сгенерировать баннер
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Информация</h5>
+                </div>
+                <div class="card-body">
+                    <p>Этот инструмент позволяет:</p>
+                    <ul>
+                        <li>📊 Парсить данные из игр</li>
+                        <li>🎨 Генерировать интерактивные HTML5 баннеры</li>
+                        <li>🕹️ Экспортировать для Godot</li>
+                        <li>👁️ Предпросмотр в реальном времени</li>
+                    </ul>
+                    
+                    <div class="alert alert-info">
+                        <strong>Тема проекта:</strong> Разработка инструмента для управления игровыми рекламными баннерами
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

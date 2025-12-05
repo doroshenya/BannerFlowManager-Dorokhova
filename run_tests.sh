@@ -13,10 +13,10 @@ python -c "import django; print(f'Django version: {django.__version__}')"
 echo "Запускаем миграции..."
 python manage.py migrate
 
-echo "Запускаем тесты..."
-pytest -v bannerflow_app/tests.py
+echo "Запускаем проверку Django..."
+python manage.py check
 
-echo "Проверяем покрытие кода..."
-pytest --cov=bannerflow_app --cov-report=term-missing
+echo "Запускаем тесты через manage.py..."
+python manage.py test bannerflow_app.tests -v 2
 
 echo "=== Тестирование завершено ==="

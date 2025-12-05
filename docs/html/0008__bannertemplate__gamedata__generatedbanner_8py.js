@@ -1,0 +1,4 @@
+var 0008__bannertemplate__gamedata__generatedbanner_8py =
+[
+    [ "bannerflow_app.migrations.0008_bannertemplate_gamedata_generatedbanner.Migration", "classbannerflow__app_1_1migrations_1_10008__bannertemplate__gamedata__generatedbanner_1_1Migration.html", "classbannerflow__app_1_1migrations_1_10008__bannertemplate__gamedata__generatedbanner_1_1Migration" ]
+];

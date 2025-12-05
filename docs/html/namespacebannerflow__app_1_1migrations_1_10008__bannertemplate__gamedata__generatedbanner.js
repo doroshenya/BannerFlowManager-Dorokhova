@@ -1,0 +1,4 @@
+var namespacebannerflow__app_1_1migrations_1_10008__bannertemplate__gamedata__generatedbanner =
+[
+    [ "Migration", "classbannerflow__app_1_1migrations_1_10008__bannertemplate__gamedata__generatedbanner_1_1Migration.html", "classbannerflow__app_1_1migrations_1_10008__bannertemplate__gamedata__generatedbanner_1_1Migration" ]
+];

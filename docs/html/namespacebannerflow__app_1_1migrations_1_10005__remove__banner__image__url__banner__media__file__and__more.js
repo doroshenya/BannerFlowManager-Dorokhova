@@ -1,0 +1,4 @@
+var namespacebannerflow__app_1_1migrations_1_10005__remove__banner__image__url__banner__media__file__and__more =
+[
+    [ "Migration", "classbannerflow__app_1_1migrations_1_10005__remove__banner__image__url__banner__media__file__and__more_1_1Migration.html", "classbannerflow__app_1_1migrations_1_10005__remove__banner__image__url__banner__media__file__and__more_1_1Migration" ]
+];

@@ -1,0 +1,4 @@
+var 0005__remove__banner__image__url__banner__media__file__and__more_8py =
+[
+    [ "bannerflow_app.migrations.0005_remove_banner_image_url_banner_media_file_and_more.Migration", "classbannerflow__app_1_1migrations_1_10005__remove__banner__image__url__banner__media__file__and__more_1_1Migration.html", "classbannerflow__app_1_1migrations_1_10005__remove__banner__image__url__banner__media__file__and__more_1_1Migration" ]
+];

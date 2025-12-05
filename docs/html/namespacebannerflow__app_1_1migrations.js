@@ -1,0 +1,11 @@
+var namespacebannerflow__app_1_1migrations =
+[
+    [ "0001_initial", "namespacebannerflow__app_1_1migrations_1_10001__initial.html", "namespacebannerflow__app_1_1migrations_1_10001__initial" ],
+    [ "0002_campaign_start_date", "namespacebannerflow__app_1_1migrations_1_10002__campaign__start__date.html", "namespacebannerflow__app_1_1migrations_1_10002__campaign__start__date" ],
+    [ "0003_campaign_end_date_campaign_target_game_version_and_more", "namespacebannerflow__app_1_1migrations_1_10003__campaign__end__date__campaign__target__game__version__and__more.html", "namespacebannerflow__app_1_1migrations_1_10003__campaign__end__date__campaign__target__game__version__and__more" ],
+    [ "0004_campaign_is_ab_test_abtest_campaignstatistics", "namespacebannerflow__app_1_1migrations_1_10004__campaign__is__ab__test__abtest__campaignstatistics.html", "namespacebannerflow__app_1_1migrations_1_10004__campaign__is__ab__test__abtest__campaignstatistics" ],
+    [ "0005_remove_banner_image_url_banner_media_file_and_more", "namespacebannerflow__app_1_1migrations_1_10005__remove__banner__image__url__banner__media__file__and__more.html", "namespacebannerflow__app_1_1migrations_1_10005__remove__banner__image__url__banner__media__file__and__more" ],
+    [ "0006_alter_banner_media_file", "namespacebannerflow__app_1_1migrations_1_10006__alter__banner__media__file.html", "namespacebannerflow__app_1_1migrations_1_10006__alter__banner__media__file" ],
+    [ "0007_alter_banner_media_file", "namespacebannerflow__app_1_1migrations_1_10007__alter__banner__media__file.html", "namespacebannerflow__app_1_1migrations_1_10007__alter__banner__media__file" ],
+    [ "0008_bannertemplate_gamedata_generatedbanner", "namespacebannerflow__app_1_1migrations_1_10008__bannertemplate__gamedata__generatedbanner.html", "namespacebannerflow__app_1_1migrations_1_10008__bannertemplate__gamedata__generatedbanner" ]
+];

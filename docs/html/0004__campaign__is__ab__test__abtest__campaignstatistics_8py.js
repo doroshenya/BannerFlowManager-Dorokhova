@@ -1,0 +1,4 @@
+var 0004__campaign__is__ab__test__abtest__campaignstatistics_8py =
+[
+    [ "bannerflow_app.migrations.0004_campaign_is_ab_test_abtest_campaignstatistics.Migration", "classbannerflow__app_1_1migrations_1_10004__campaign__is__ab__test__abtest__campaignstatistics_1_1Migration.html", "classbannerflow__app_1_1migrations_1_10004__campaign__is__ab__test__abtest__campaignstatistics_1_1Migration" ]
+];

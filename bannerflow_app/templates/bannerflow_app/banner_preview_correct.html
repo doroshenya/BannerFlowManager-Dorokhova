@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Предпросмотр баннера</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .btn { 
+            display: inline-block; 
+            padding: 10px 20px; 
+            margin: 10px; 
+            background: #007bff; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            border: none;
+            cursor: pointer;
+        }
+        .debug { 
+            background: #f8f9fa; 
+            padding: 15px; 
+            margin: 20px 0; 
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Предпросмотр баннера</h1>
+    
+    <div class="debug">
+        <h3>Отладочная информация:</h3>
+        <p><strong>ID баннера:</strong> {{ banner.id }}</p>
+        <p><strong>Название:</strong> {{ banner.name }}</p>
+        <p><strong>Правильная ссылка на экспорт:</strong> 
+           <code>/banner/export/{{ banner.id }}/</code>
+        </p>
+    </div>
+    
+    <h2>Баннер:</h2>
+    <div style="border: 2px solid #ccc; padding: 15px; margin: 15px 0;">
+        {{ banner.html_content|safe }}
+    </div>
+    
+    <h2>Тестируйте эти ссылки:</h2>
+    
+    <!-- Кнопка 1: Абсолютный путь с ID -->
+    <a class="btn" href="/banner/export/{{ banner.id }}/">
+        Кнопка 1: Экспорт с ID={{ banner.id }}
+    </a>
+    
+    <br><br>
+    
+    <!-- Кнопка 2: Скачать через JavaScript -->
+    <button class="btn" onclick="downloadExport()">
+        Кнопка 2: Скачать через JS
+    </button>
+    
+    <div class="debug">
+        <h3>Прямые ссылки для проверки:</h3>
+        <p>1. <a href="/banner/export/{{ banner.id }}/" target="_blank">
+           Открыть экспорт в новой вкладке</a></p>
+        <p>2. Скопируйте эту ссылку: 
+           <input type="text" value="http://127.0.0.1:8000/banner/export/{{ banner.id }}/" 
+                  style="width: 400px; padding: 5px;" readonly>
+        </p>
+    </div>
+    
+    <script>
+        function downloadExport() {
+            // Прямое скачивание
+            window.location.href = "/banner/export/{{ banner.id }}/";
+        }
+        
+        // Отладочная информация в консоль
+        console.log("=== DEBUG INFO ===");
+        console.log("Banner ID:", {{ banner.id }});
+        console.log("Export URL:", "/banner/export/{{ banner.id }}/");
+    </script>
+</body>
+</html>

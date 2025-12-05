@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Кампании{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Список кампаний</h2>
+    
+    {% if campaigns %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Название</th>
+                <th>Дата начала</th>
+                <th>Статус</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for campaign in campaigns %}
+            <tr>
+                <td>{{ campaign.id }}</td>
+                <td>{{ campaign.name }}</td>
+                <td>{{ campaign.start_date|date:"d.m.Y" }}</td>
+                <td>
+                    {% if campaign.is_active %}
+                        <span class="badge bg-success">Активна</span>
+                    {% else %}
+                        <span class="badge bg-secondary">Завершена</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <div class="alert alert-info">
+        Нет созданных кампаний.
+    </div>
+    {% endif %}
+    
+    <a href="{% url 'banner_generator' %}" class="btn btn-primary">Создать кампанию</a>
+</div>
+{% endblock %}

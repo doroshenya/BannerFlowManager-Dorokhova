@@ -1,0 +1,5 @@
+var classbannerflow__app_1_1migrations_1_10004__campaign__is__ab__test__abtest__campaignstatistics_1_1Migration =
+[
+    [ "dependencies", "classbannerflow__app_1_1migrations_1_10004__campaign__is__ab__test__abtest__campaignstatistics_1_1Migration.html#a80348fb8f00b6f626437b7494d3edf6f", null ],
+    [ "operations", "classbannerflow__app_1_1migrations_1_10004__campaign__is__ab__test__abtest__campaignstatistics_1_1Migration.html#afa5253f043dfe3b8fd5d149e64625486", null ]
+];

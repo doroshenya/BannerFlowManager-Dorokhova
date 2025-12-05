@@ -1,0 +1,26 @@
+/* Кастомные стили для BannerFlow */
+.banner-preview {
+    border: 3px dashed #007bff;
+    padding: 20px;
+    margin: 20px 0;
+    background: #f8f9fa;
+}
+
+.download-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    transition: transform 0.3s;
+}
+
+.download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.banner-card {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}

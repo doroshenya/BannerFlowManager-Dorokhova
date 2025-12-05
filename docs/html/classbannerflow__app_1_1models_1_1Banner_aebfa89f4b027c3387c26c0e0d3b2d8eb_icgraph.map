@@ -1,0 +1,10 @@
+<map id="bannerflow_app.models.Banner.save" name="bannerflow_app.models.Banner.save">
+<area shape="rect" id="Node000001" title=" " alt="" coords="357,55,619,80"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="547,47,546,42,536,38,488,33,452,35,433,40,429,46,439,52,435,57,424,46,430,36,451,30,488,28,537,33,549,38,552,45"/>
+<area shape="rect" id="Node000002" href="$classbannerflow__app_1_1models_1_1Campaign.html#a5d943f51f882d86751ab1adc8cd8c910" title=" " alt="" coords="5,5,309,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="388,55,243,33,244,28,389,50"/>
+<area shape="rect" id="Node000003" href="$classbannerflow__app_1_1models_1_1Campaign.html#aedd83961dc7f2188735136be39db9460" title=" " alt="" coords="12,55,303,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="344,70,303,70,303,65,344,65"/>
+<area shape="rect" id="Node000004" href="$classbannerflow__app_1_1models_1_1Campaign.html#a2562d5436317965a49de110045ecc817" title=" " alt="" coords="18,104,297,129"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="389,85,244,107,243,101,388,79"/>
+</map>

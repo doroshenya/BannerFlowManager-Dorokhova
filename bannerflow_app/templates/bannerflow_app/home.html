@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BannerFlow Manager - Управление игровыми баннерами</title>
+    <link rel="stylesheet" href="/static/bannerflow_app/css/style.css">
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; padding: 60px 0; color: white; }
+        .header h1 { font-size: 48px; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .header p { font-size: 20px; max-width: 800px; margin: 0 auto 30px; line-height: 1.6; }
+        .cards { display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin: 40px 0; }
+        .card { background: white; border-radius: 15px; padding: 40px 30px; text-align: center; width: 300px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-10px); }
+        .card h2 { color: #333; margin-bottom: 20px; font-size: 24px; }
+        .card p { color: #666; line-height: 1.6; margin-bottom: 30px; }
+        .btn { display: inline-block; padding: 15px 30px; background: #4CAF50; color: white; text-decoration: none; border-radius: 50px; font-size: 18px; font-weight: bold; transition: background 0.3s; }
+        .btn:hover { background: #45a049; }
+        .btn-primary { background: #007bff; }
+        .btn-primary:hover { background: #0056b3; }
+        .btn-secondary { background: #6c757d; }
+        .btn-secondary:hover { background: #5a6268; }
+        .features { background: white; border-radius: 15px; padding: 40px; margin-top: 40px; }
+        .features h2 { text-align: center; color: #333; margin-bottom: 30px; }
+        .feature-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .feature-item { background: #f8f9fa; padding: 20px; border-radius: 10px; }
+        .stats { display: flex; justify-content: space-around; text-align: center; color: white; margin-top: 60px; }
+        .stat-item h3 { font-size: 36px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 BannerFlow Manager</h1>
+            <p>Профессиональная система для создания, управления и экспорта интерактивных игровых баннеров</p>
+        </div>
+        
+        <div class="cards">
+            <!-- Карточка 1: Парсинг данных -->
+            <div class="card">
+                <h2>📊 Парсинг данных</h2>
+                <p>Импорт и анализ данных из игр в различных форматах (JSON, CSV)</p>
+                <a href="/upload-data/" class="btn">Начать парсинг</a>
+            </div>
+            
+            <!-- Карточка 2: Генератор баннеров -->
+            <div class="card">
+                <h2>🎨 Генератор баннеров</h2>
+                <p>Создание интерактивных HTML5 баннеров из шаблонов и игровых данных</p>
+                <a href="/generator/" class="btn btn-primary">Создать баннер</a>
+            </div>
+            
+            <!-- Карточка 3: Экспорт -->
+            <div class="card">
+                <h2>🕹️ Экспорт в Godot</h2>
+                <p>Конвертация баннеров в GDScript файлы для использования в Godot Engine</p>
+                <!-- ПРАВИЛЬНАЯ ССЫЛКА: ведёт на страницу списка баннеров или конкретный экспорт -->
+                <a href="/banner/list/" class="btn btn-secondary">Экспортировать баннеры</a>
+            </div>
+        </div>
+        
+        <div class="features">
+            <h2>🚀 Возможности системы</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3>📱 Адаптивные баннеры</h3>
+                    <p>Автоматическая адаптация под разные разрешения экрана</p>
+                </div>
+                <div class="feature-item">
+                    <h3>🎯 A/B тестирование</h3>
+                    <p>Тестирование эффективности разных вариантов баннеров</p>
+                </div>
+                <div class="feature-item">
+                    <h3>📈 Аналитика</h3>
+                    <p>Детальная статистика показов и кликов</p>
+                </div>
+                <div class="feature-item">
+                    <h3>⚡ Быстрый экспорт</h3>
+                    <p>Мгновенная генерация файлов для Godot Engine</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <h3>20+</h3>
+                <p>Созданных баннеров</p>
+            </div>
+            <div class="stat-item">
+                <h3>3</h3>
+                <p>Готовых шаблона</p>
+            </div>
+            <div class="stat-item">
+                <h3>4</h3>
+                <p>Набора игровых данных</p>
+            </div>
+            <div class="stat-item">
+                <h3>100%</h3>
+                <p>Совместимость с Godot</p>
+            </div>
+        </div>
+        
+        <div style="text-align: center; color: white; margin-top: 40px; padding: 20px;">
+            <p><strong>Тема проекта:</strong> Разработка инструмента для управления игровыми рекламными баннерами</p>
+            <p>BannerFlow Manager &copy; 2025</p>
+        </div>
+    </div>
+    
+    <script>
+        // Анимация для статистики
+        document.addEventListener('DOMContentLoaded', function() {
+            const stats = document.querySelectorAll('.stat-item h3');
+            stats.forEach(stat => {
+                const finalValue = parseInt(stat.textContent);
+                let currentValue = 0;
+                const increment = finalValue / 50;
+                const timer = setInterval(() => {
+                    currentValue += increment;
+                    if (currentValue >= finalValue) {
+                        stat.textContent = finalValue + '+';
+                        clearInterval(timer);
+                    } else {
+                        stat.textContent = Math.floor(currentValue);
+                    }
+                }, 30);
+            });
+        });
+    </script>
+</body>
+</html>

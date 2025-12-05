@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'bannerflow_app',
 ]
 MIDDLEWARE = [
@@ -65,3 +66,30 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',  # Только JSON, без HTML
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ]
+}
+import os
+
+# Медиафайлы
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Настройки email (для уведомлений)
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # Для тестов - выводит в консоль
+DEFAULT_FROM_EMAIL = 'noreply@bannerflow.com'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.mail.ru'
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'bannerflow_manager@mail.ru'
+EMAIL_HOST_PASSWORD = 'DyAQzqEBGdfyyBBl3iym'  
+DEFAULT_FROM_EMAIL = 'bannerflow_manager@mail.ru'
+SERVER_EMAIL = 'bannerflow_manager@mail.ru'

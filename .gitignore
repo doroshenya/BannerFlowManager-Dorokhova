@@ -6,3 +6,4 @@ __pycache__/
 db.sqlite3
 *.tar.gz
 download.php*
+/.pytest_cache/

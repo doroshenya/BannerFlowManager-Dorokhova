@@ -1,0 +1,28 @@
+from django.shortcuts import render
+from django.http import JsonResponse
+from .models import Campaign, Banner
+
+def home(request):
+    """Главная страница"""
+    campaigns_count = Campaign.objects.count()
+    banners_count = Banner.objects.count()
+    
+    context = {
+        'campaigns_count': campaigns_count,
+        'banners_count': banners_count,
+    }
+    return render(request, 'bannerflow_app/home.html', context)
+
+def api_banners(request):
+    """API для получения баннеров"""
+    banners = Banner.objects.all()
+    
+    banner_list = []
+    for banner in banners:
+        banner_list.append({
+            'id': banner.id,
+            'title': banner.title,
+            'image_url': banner.image_url
+        })
+    
+    return JsonResponse({'banners': banner_list})

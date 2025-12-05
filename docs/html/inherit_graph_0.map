@@ -1,0 +1,19 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,237,155,262"/>
+<area shape="rect" id="Node000001" href="$classbannerflow__app_1_1admin_1_1ABTestAdmin.html" title=" " alt="" coords="215,5,433,45"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="88,222,104,185,128,140,161,94,201,55,222,43,224,48,204,59,165,97,133,142,109,187,93,224"/>
+<area shape="rect" id="Node000002" href="$classbannerflow__app_1_1admin_1_1BannerAdmin.html" title=" " alt="" coords="214,69,434,109"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="95,224,139,171,168,143,201,119,226,107,228,112,204,124,172,147,143,174,100,227"/>
+<area shape="rect" id="Node000003" href="$classbannerflow__app_1_1admin_1_1BannerTemplateAdmin.html" title=" " alt="" coords="214,133,434,173"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="112,227,154,205,202,183,237,171,239,176,204,188,157,209,115,232"/>
+<area shape="rect" id="Node000004" href="$classbannerflow__app_1_1admin_1_1CampaignAdmin.html" title=" " alt="" coords="204,197,444,237"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="168,235,203,230,204,236,169,240"/>
+<area shape="rect" id="Node000005" href="$classbannerflow__app_1_1admin_1_1CampaignStatisticsAdmin.html" title=" " alt="" coords="204,261,444,301"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="169,258,204,263,203,268,168,264"/>
+<area shape="rect" id="Node000006" href="$classbannerflow__app_1_1admin_1_1GameDataAdmin.html" title=" " alt="" coords="217,325,431,365"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="115,267,157,289,204,311,239,323,237,328,202,316,154,294,112,271"/>
+<area shape="rect" id="Node000007" href="$classbannerflow__app_1_1admin_1_1GeneratedBannerAdmin.html" title=" " alt="" coords="203,389,445,429"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="100,271,143,324,172,352,204,375,228,387,226,391,201,380,168,356,139,328,95,275"/>
+<area shape="rect" id="Node000008" href="$classbannerflow__app_1_1admin_1_1UserProfileAdmin.html" title=" " alt="" coords="222,453,426,493"/>
+<area shape="poly" id="edge8_Node000000_Node000008" title=" " alt="" coords="93,274,109,312,133,356,165,401,204,439,224,451,222,456,201,443,161,405,128,359,104,314,88,276"/>
+</map>
