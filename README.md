@@ -16,31 +16,31 @@ python manage.py runserver
 Откройте в браузере: http://127.0.0.1:8000/  
 
 Структура проекта  
-bannerflow_app/          # Основное приложение Django  
-├── migrations/          # Миграции БД  
-├── models.py           # Модели данных  
-├── views.py            # Контроллеры  
-├── services.py         # Бизнес-логика  
-├── banner_generator.py # Генератор баннеров  
-└── data_parser.py      # Парсер CSV/XLSX  
+bannerflow_app/ - Основное приложение Django  
+├── migrations/ - Миграции БД  
+├── models.py - Модели данных  
+├── views.py - Контроллеры  
+├── services.py - Бизнес-логика  
+├── banner_generator.py - Генератор баннеров  
+└── data_parser.py - Парсер CSV/XLSX  
 
-bannerflow_project/     # Настройки проекта  
-├── settings.py         # Конфигурация  
-└── urls.py             # URL маршруты  
+bannerflow_project/ - Настройки проекта  
+├── settings.py - Конфигурация  
+└── urls.py - URL маршруты  
 
-docs/                   # Документация  
-├── html/              # Doxygen HTML  
-└── pdf_output/        # PDF документация  
+docs/ - Документация  
+├── html/ - Doxygen HTML  
+└── pdf_output/ - PDF документация  
 
-media/                  # Медиафайлы  
-├── banners/           # Сгенерированные баннеры  
-└── exports/godot/     # Скрипты для Godot  
+media/ - Медиафайлы  
+├── banners/ - Сгенерированные баннеры  
+└── exports/godot/ - Скрипты для Godot  
 
-.gitignore             # Игнорируемые файлы  
-requirements.txt       # Зависимости Python  
-manage.py             # Django скрипт  
-pytest.ini           # Конфигурация тестов  
-doxygen.config       # Конфигурация Doxygen  
+.gitignore - Игнорируемые файлы  
+requirements.txt - Зависимости Python  
+manage.py - Django скрипт  
+pytest.ini - Конфигурация тестов  
+doxygen.config - Конфигурация Doxygen  
 
 Основные возможности  
 Парсинг игровых данных - загрузка CSV/XLSX файлов  
