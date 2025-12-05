@@ -15,9 +15,9 @@ python manage.py migrate
 python manage.py runserver
 Откройте в браузере: http://127.0.0.1:8000/
 
-Структура проекта
+Структура проекта  
 bannerflow_app/          # Основное приложение Django  
-migrations/          # Миграции БД  
+├── migrations/          # Миграции БД  
 ├── models.py           # Модели данных  
 ├── views.py            # Контроллеры  
 ├── services.py         # Бизнес-логика  
