@@ -17,6 +17,7 @@ def validate_media_file(value):
         )
 
 class UserProfile(models.Model):
+    """Профиль пользователя с ролью (маркетолог, аналитик, администратор)."""
     ROLE_CHOICES = [
         ('marketer', 'Маркетолог'),
         ('analyst', 'Аналитик'),
@@ -32,6 +33,7 @@ class UserProfile(models.Model):
         return f"{self.user.username} ({self.get_role_display()})"
 
 class Campaign(models.Model):
+    """Рекламная кампания: бюджет, сроки, таргетинг, статус, A/B-тест."""
     STATUS_CHOICES = [
         ('draft', 'Черновик'),
         ('active', 'Активна'),
@@ -107,6 +109,7 @@ class Campaign(models.Model):
         return self.name
 
 class Banner(models.Model):
+    """Баннер (изображение или видео), привязанный к кампании."""
     MEDIA_TYPE_CHOICES = [
         ('image', 'Изображение'),
         ('video', 'Видео'),
@@ -144,6 +147,7 @@ class Banner(models.Model):
         return self.title
 
 class ABTest(models.Model):
+    """A/B-тест для сравнения эффективности нескольких баннеров."""
     name = models.CharField(max_length=255, verbose_name="Название теста")
     campaign = models.ForeignKey(Campaign, on_delete=models.CASCADE, verbose_name="Кампания")
     banners = models.ManyToManyField(Banner, verbose_name="Баннеры для теста")
@@ -157,6 +161,7 @@ class ABTest(models.Model):
         return self.name
 
 class CampaignStatistics(models.Model):
+    """Статистика показов, кликов и конверсий по кампании (по дням)."""
     campaign = models.ForeignKey(Campaign, on_delete=models.CASCADE, verbose_name="Кампания")
     date = models.DateField(default=timezone.now, verbose_name="Дата")
     impressions = models.IntegerField(default=0, verbose_name="Показы")
