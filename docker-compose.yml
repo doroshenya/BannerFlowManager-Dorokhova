@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: bannerflow_db
+      POSTGRES_USER: bannerflow_user
+      POSTGRES_PASSWORD: bannerflow_pass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bannerflow_user"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - DB_ENGINE=django.db.backends.postgresql
+      - DB_NAME=bannerflow_db
+      - DB_USER=bannerflow_user
+      - DB_PASSWORD=bannerflow_pass
+      - DB_HOST=db
+      - DB_PORT=5432
+    volumes:
+      - .:/app
+      - media_data:/app/media
+    command: sh -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+
+volumes:
+  postgres_data:
+  media_data:

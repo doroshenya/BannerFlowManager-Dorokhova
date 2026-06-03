@@ -1,0 +1,111 @@
+\doxysection{bannerflow\+\_\+app.\+models.\+ABTest Class Reference}
+\hypertarget{classbannerflow__app_1_1models_1_1ABTest}{}\label{classbannerflow__app_1_1models_1_1ABTest}\index{bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}}
+
+
+Inheritance diagram for bannerflow\+\_\+app.\+models.\+ABTest\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{classbannerflow__app_1_1models_1_1ABTest__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for bannerflow\+\_\+app.\+models.\+ABTest\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{classbannerflow__app_1_1models_1_1ABTest__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1ABTest_aae75790e488b8b9bd256f3c8b5fda833}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1ABTest_a48b913992a11a64f4b9f42a47ba21548}{name}} = models.\+Char\+Field(max\+\_\+length=255, verbose\+\_\+name="{}Nazvanie testa"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1ABTest_a6d280d67bb5aec8fe81965b3ed511851}{campaign}} = models.\+Foreign\+Key(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign}{Campaign}}, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Kampaniya"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1ABTest_a3ad83c149fae42d9c9a0778ef9984100}{banners}} = models.\+Many\+To\+Many\+Field(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner}{Banner}}, verbose\+\_\+name="{}Bannery dlya testa"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1ABTest_ac20a60bc30cc4452273954dba26ef750}{audience\+\_\+segment}} = models.\+Char\+Field(max\+\_\+length=100, verbose\+\_\+name="{}Segment auditorii"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1ABTest_a13abb8332957c40622f663b1225c8b7c}{start\+\_\+date}} = models.\+Date\+Time\+Field(default=timezone.\+now, verbose\+\_\+name="{}Data nachala"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1ABTest_a7329dd27d50c46793fecf4ed6c2463b4}{end\+\_\+date}} = models.\+Date\+Time\+Field(default=timezone.\+now, verbose\+\_\+name="{}Data okonchaniya"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1ABTest_a133213047e26563058c903609cf68b53}{is\+\_\+active}} = models.\+Boolean\+Field(default=True, verbose\+\_\+name="{}Aktiven"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1ABTest_a7b5e8e325dda6ffdb852331c56339163}{created\+\_\+at}} = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1ABTest_aae75790e488b8b9bd256f3c8b5fda833}\label{classbannerflow__app_1_1models_1_1ABTest_aae75790e488b8b9bd256f3c8b5fda833} 
+\index{bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+ABTest.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1ABTest_ac20a60bc30cc4452273954dba26ef750}\label{classbannerflow__app_1_1models_1_1ABTest_ac20a60bc30cc4452273954dba26ef750} 
+\index{bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}!audience\_segment@{audience\_segment}}
+\index{audience\_segment@{audience\_segment}!bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}}
+\doxysubsubsection{\texorpdfstring{audience\_segment}{audience\_segment}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+ABTest.\+audience\+\_\+segment = models.\+Char\+Field(max\+\_\+length=100, verbose\+\_\+name="{}Segment auditorii"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1ABTest_a3ad83c149fae42d9c9a0778ef9984100}\label{classbannerflow__app_1_1models_1_1ABTest_a3ad83c149fae42d9c9a0778ef9984100} 
+\index{bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}!banners@{banners}}
+\index{banners@{banners}!bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}}
+\doxysubsubsection{\texorpdfstring{banners}{banners}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+ABTest.\+banners = models.\+Many\+To\+Many\+Field(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner}{Banner}}, verbose\+\_\+name="{}Bannery dlya testa"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1ABTest_a6d280d67bb5aec8fe81965b3ed511851}\label{classbannerflow__app_1_1models_1_1ABTest_a6d280d67bb5aec8fe81965b3ed511851} 
+\index{bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}!campaign@{campaign}}
+\index{campaign@{campaign}!bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}}
+\doxysubsubsection{\texorpdfstring{campaign}{campaign}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+ABTest.\+campaign = models.\+Foreign\+Key(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign}{Campaign}}, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Kampaniya"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1ABTest_a7b5e8e325dda6ffdb852331c56339163}\label{classbannerflow__app_1_1models_1_1ABTest_a7b5e8e325dda6ffdb852331c56339163} 
+\index{bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}!created\_at@{created\_at}}
+\index{created\_at@{created\_at}!bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}}
+\doxysubsubsection{\texorpdfstring{created\_at}{created\_at}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+ABTest.\+created\+\_\+at = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1ABTest_a7329dd27d50c46793fecf4ed6c2463b4}\label{classbannerflow__app_1_1models_1_1ABTest_a7329dd27d50c46793fecf4ed6c2463b4} 
+\index{bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}!end\_date@{end\_date}}
+\index{end\_date@{end\_date}!bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}}
+\doxysubsubsection{\texorpdfstring{end\_date}{end\_date}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+ABTest.\+end\+\_\+date = models.\+Date\+Time\+Field(default=timezone.\+now, verbose\+\_\+name="{}Data okonchaniya"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1ABTest_a133213047e26563058c903609cf68b53}\label{classbannerflow__app_1_1models_1_1ABTest_a133213047e26563058c903609cf68b53} 
+\index{bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}!is\_active@{is\_active}}
+\index{is\_active@{is\_active}!bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}}
+\doxysubsubsection{\texorpdfstring{is\_active}{is\_active}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+ABTest.\+is\+\_\+active = models.\+Boolean\+Field(default=True, verbose\+\_\+name="{}Aktiven"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1ABTest_a48b913992a11a64f4b9f42a47ba21548}\label{classbannerflow__app_1_1models_1_1ABTest_a48b913992a11a64f4b9f42a47ba21548} 
+\index{bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}!name@{name}}
+\index{name@{name}!bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+ABTest.\+name = models.\+Char\+Field(max\+\_\+length=255, verbose\+\_\+name="{}Nazvanie testa"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1ABTest_a13abb8332957c40622f663b1225c8b7c}\label{classbannerflow__app_1_1models_1_1ABTest_a13abb8332957c40622f663b1225c8b7c} 
+\index{bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}!start\_date@{start\_date}}
+\index{start\_date@{start\_date}!bannerflow\_app.models.ABTest@{bannerflow\_app.models.ABTest}}
+\doxysubsubsection{\texorpdfstring{start\_date}{start\_date}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+ABTest.\+start\+\_\+date = models.\+Date\+Time\+Field(default=timezone.\+now, verbose\+\_\+name="{}Data nachala"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+bannerflow\+\_\+app/\mbox{\hyperlink{models_8py}{models.\+py}}\end{DoxyCompactItemize}

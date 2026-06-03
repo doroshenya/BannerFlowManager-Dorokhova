@@ -1,0 +1,105 @@
+\chapter{README}
+\hypertarget{md_README}{}\label{md_README}\index{README@{README}}
+Banner\+Flow Manager ~\newline
+ Veb-\/prilozhenie dlya upravleniya reklamnymi bannerami v igrah s generatsiey koda dlya Godot Engine. ~\newline
+
+
+Bystryy start ~\newline
+ Aktivatsiya virtualnogo okruzheniya ~\newline
+ source myenv/bin/activate ~\newline
+
+
+Ustanovka zavisimostey ~\newline
+ pip install -\/r requirements.\+txt ~\newline
+
+
+Nastroyka bazy dannyh ~\newline
+ python \doxylink{manage_8py}{manage.\+py} migrate ~\newline
+
+
+Zapusk servera ~\newline
+ python \doxylink{manage_8py}{manage.\+py} runserver ~\newline
+ Otkroyte v brauzere\+: \href{http://127.0.0.1:8000/}{\texttt{ http\+://127.\+0.\+0.\+1\+:8000/}} ~\newline
+
+
+Struktura proekta ~\newline
+ bannerflow\+\_\+app/ -\/ Osnovnoe prilozhenie Django ~\newline
+ |-- migrations/ -\/ Migratsii BD ~\newline
+ |-- \doxylink{models_8py}{models.\+py} -\/ Modeli dannyh ~\newline
+ |-- \doxylink{views_8py}{views.\+py} -\/ Kontrollery ~\newline
+ |-- \doxylink{services_8py}{services.\+py} -\/ Biznes-\/logika ~\newline
+ |-- \doxylink{banner__generator_8py}{banner\+\_\+generator.\+py} -\/ Generator bannerov ~\newline
+ |--- data\+\_\+parser.\+py -\/ Parser CSV/\+XLSX ~\newline
+
+
+bannerflow\+\_\+project/ -\/ Nastroyki proekta ~\newline
+ |-- \doxylink{settings_8py}{settings.\+py} -\/ Konfiguratsiya ~\newline
+ |--- urls.\+py -\/ URL marshruty ~\newline
+
+
+docs/ -\/ Dokumentatsiya ~\newline
+ |-- html/ -\/ Doxygen HTML ~\newline
+ |--- pdf\+\_\+output/ -\/ PDF dokumentatsiya ~\newline
+
+
+media/ -\/ Mediafayly ~\newline
+ |-- banners/ -\/ Sgenerirovannye bannery ~\newline
+ |--- exports/godot/ -\/ Skripty dlya Godot ~\newline
+
+
+.gitignore -\/ Ignoriruemye fayly ~\newline
+ requirements.\+txt -\/ Zavisimosti Python ~\newline
+ \doxylink{manage_8py}{manage.\+py} -\/ Django skript ~\newline
+ pytest.\+ini -\/ Konfiguratsiya testov ~\newline
+ doxygen.\+config -\/ Konfiguratsiya Doxygen ~\newline
+
+
+Osnovnye vozmozhnosti ~\newline
+ Parsing igrovyh dannyh -\/ zagruzka CSV/\+XLSX faylov ~\newline
+ Generatsiya bannerov -\/ sozdanie reklamnyh bannerov ~\newline
+ Eksport v Godot -\/ avtomaticheskaya generatsiya .gd skriptov ~\newline
+ A/B testirovanie -\/ sravnenie effektivnosti bannerov ~\newline
+ Polnaya dokumentatsiya -\/ Doxygen + La\+TeX ~\newline
+
+
+Modeli dannyh ~\newline
+ Campaign -\/ Reklamnye kampanii ~\newline
+ Banner -\/ Bannery ~\newline
+ Banner\+Template -\/ Shablony bannerov ~\newline
+ Game\+Data -\/ Igrovye dannye ~\newline
+ ABTest -\/ A/B testy ~\newline
+ Generated\+Banner -\/ Sgenerirovannye bannery ~\newline
+
+
+Testirovanie ~\newline
+ Zapusk vseh testov ~\newline
+ ./run\+\_\+tests.sh ~\newline
+
+
+Zapusk s pokrytiem ~\newline
+ pytest --cov=\doxylink{namespacebannerflow__app}{bannerflow\+\_\+app} tests/ ~\newline
+
+
+Dokumentatsiya ~\newline
+ Generatsiya HTML dokumentatsii ~\newline
+ doxygen doxygen.\+config ~\newline
+ Fayly dostupny v docs/html/ ~\newline
+
+
+Tehnologii ~\newline
+ Python 3.\+13 + Django 5.\+2.\+8 ~\newline
+ SQLite -\/ baza dannyh ~\newline
+ Pillow -\/ obrabotka izobrazheniy ~\newline
+ pandas -\/ analiz dannyh ~\newline
+ Doxygen -\/ dokumentatsiya ~\newline
+ pytest -\/ testirovanie ~\newline
+
+
+UML diagrammy ~\newline
+ Use Case diagramma ~\newline
+  ~\newline
+
+
+Deployment diagramma ~\newline
+  ~\newline
+ 

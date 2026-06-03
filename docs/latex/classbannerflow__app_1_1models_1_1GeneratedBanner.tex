@@ -1,0 +1,112 @@
+\doxysection{bannerflow\+\_\+app.\+models.\+Generated\+Banner Class Reference}
+\hypertarget{classbannerflow__app_1_1models_1_1GeneratedBanner}{}\label{classbannerflow__app_1_1models_1_1GeneratedBanner}\index{bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}}
+
+
+Inheritance diagram for bannerflow\+\_\+app.\+models.\+Generated\+Banner\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{classbannerflow__app_1_1models_1_1GeneratedBanner__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for bannerflow\+\_\+app.\+models.\+Generated\+Banner\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{classbannerflow__app_1_1models_1_1GeneratedBanner__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbannerflow__app_1_1models_1_1GeneratedBanner_1_1Meta}{Meta}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GeneratedBanner_afb04657ae17bd1f0f8251e1444758601}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GeneratedBanner_ad641aa25ef009a314991f5accf7ae4e4}{name}} = models.\+Char\+Field(max\+\_\+length=100, verbose\+\_\+name="{}Nazvanie bannera"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GeneratedBanner_a1fcc3507cbbab18c909092f009ec8f20}{template}} = models.\+Foreign\+Key(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate}{Banner\+Template}}, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Shablon"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GeneratedBanner_af95990fa45fb38d20846c768abbf31e6}{game\+\_\+data}} = models.\+Foreign\+Key(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData}{Game\+Data}}, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Dannye igry"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GeneratedBanner_aac127e35f5af8eb63fc4ac72d2dbf953}{html\+\_\+content}} = models.\+Text\+Field(verbose\+\_\+name="{}HTML soderzhimoe"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GeneratedBanner_a4b873e9caabd3c190229e9d133b9db21}{godot\+\_\+export}} = models.\+File\+Field(upload\+\_\+to=\textquotesingle{}exports/godot/\textquotesingle{}, blank=True, verbose\+\_\+name="{}Eksport dlya Godot"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GeneratedBanner_a3b53cbbd5bbf673fabcb4b06c5bd7e4e}{preview\+\_\+url}} = models.\+URLField(blank=True, verbose\+\_\+name="{}URL predprosmotra"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GeneratedBanner_aea4b578214ce592fa4eace366e18f5ce}{created\+\_\+at}} = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Sgenerirovannyy interaktivnyy banner\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1GeneratedBanner_afb04657ae17bd1f0f8251e1444758601}\label{classbannerflow__app_1_1models_1_1GeneratedBanner_afb04657ae17bd1f0f8251e1444758601} 
+\index{bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Generated\+Banner.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1GeneratedBanner_aea4b578214ce592fa4eace366e18f5ce}\label{classbannerflow__app_1_1models_1_1GeneratedBanner_aea4b578214ce592fa4eace366e18f5ce} 
+\index{bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}!created\_at@{created\_at}}
+\index{created\_at@{created\_at}!bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}}
+\doxysubsubsection{\texorpdfstring{created\_at}{created\_at}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Generated\+Banner.\+created\+\_\+at = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GeneratedBanner_af95990fa45fb38d20846c768abbf31e6}\label{classbannerflow__app_1_1models_1_1GeneratedBanner_af95990fa45fb38d20846c768abbf31e6} 
+\index{bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}!game\_data@{game\_data}}
+\index{game\_data@{game\_data}!bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}}
+\doxysubsubsection{\texorpdfstring{game\_data}{game\_data}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Generated\+Banner.\+game\+\_\+data = models.\+Foreign\+Key(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData}{Game\+Data}}, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Dannye igry"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GeneratedBanner_a4b873e9caabd3c190229e9d133b9db21}\label{classbannerflow__app_1_1models_1_1GeneratedBanner_a4b873e9caabd3c190229e9d133b9db21} 
+\index{bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}!godot\_export@{godot\_export}}
+\index{godot\_export@{godot\_export}!bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}}
+\doxysubsubsection{\texorpdfstring{godot\_export}{godot\_export}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Generated\+Banner.\+godot\+\_\+export = models.\+File\+Field(upload\+\_\+to=\textquotesingle{}exports/godot/\textquotesingle{}, blank=True, verbose\+\_\+name="{}Eksport dlya Godot"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GeneratedBanner_aac127e35f5af8eb63fc4ac72d2dbf953}\label{classbannerflow__app_1_1models_1_1GeneratedBanner_aac127e35f5af8eb63fc4ac72d2dbf953} 
+\index{bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}!html\_content@{html\_content}}
+\index{html\_content@{html\_content}!bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}}
+\doxysubsubsection{\texorpdfstring{html\_content}{html\_content}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Generated\+Banner.\+html\+\_\+content = models.\+Text\+Field(verbose\+\_\+name="{}HTML soderzhimoe"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GeneratedBanner_ad641aa25ef009a314991f5accf7ae4e4}\label{classbannerflow__app_1_1models_1_1GeneratedBanner_ad641aa25ef009a314991f5accf7ae4e4} 
+\index{bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}!name@{name}}
+\index{name@{name}!bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Generated\+Banner.\+name = models.\+Char\+Field(max\+\_\+length=100, verbose\+\_\+name="{}Nazvanie bannera"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GeneratedBanner_a3b53cbbd5bbf673fabcb4b06c5bd7e4e}\label{classbannerflow__app_1_1models_1_1GeneratedBanner_a3b53cbbd5bbf673fabcb4b06c5bd7e4e} 
+\index{bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}!preview\_url@{preview\_url}}
+\index{preview\_url@{preview\_url}!bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}}
+\doxysubsubsection{\texorpdfstring{preview\_url}{preview\_url}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Generated\+Banner.\+preview\+\_\+url = models.\+URLField(blank=True, verbose\+\_\+name="{}URL predprosmotra"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GeneratedBanner_a1fcc3507cbbab18c909092f009ec8f20}\label{classbannerflow__app_1_1models_1_1GeneratedBanner_a1fcc3507cbbab18c909092f009ec8f20} 
+\index{bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}!template@{template}}
+\index{template@{template}!bannerflow\_app.models.GeneratedBanner@{bannerflow\_app.models.GeneratedBanner}}
+\doxysubsubsection{\texorpdfstring{template}{template}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Generated\+Banner.\+template = models.\+Foreign\+Key(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate}{Banner\+Template}}, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Shablon"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+bannerflow\+\_\+app/\mbox{\hyperlink{models_8py}{models.\+py}}\end{DoxyCompactItemize}

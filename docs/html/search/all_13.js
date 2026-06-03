@@ -1,12 +1,7 @@
 var searchData=
 [
-  ['target_5fgame_5fversion_0',['target_game_version',['../classbannerflow__app_1_1models_1_1Campaign.html#a5ce3c30283312ecccd438a5ab0153ddd',1,'bannerflow_app::models::Campaign']]],
-  ['target_5fgeolocation_1',['target_geolocation',['../classbannerflow__app_1_1models_1_1Campaign.html#a6ab2bce6b678f3704d1addb9f0b78666',1,'bannerflow_app::models::Campaign']]],
-  ['target_5fplatform_2',['target_platform',['../classbannerflow__app_1_1models_1_1Campaign.html#a76c528e2de0c9837087797c9337a72e9',1,'bannerflow_app::models::Campaign']]],
-  ['template_3',['template',['../classbannerflow__app_1_1models_1_1GeneratedBanner.html#a1fcc3507cbbab18c909092f009ec8f20',1,'bannerflow_app::models::GeneratedBanner']]],
-  ['template_5ftype_4',['template_type',['../classbannerflow__app_1_1models_1_1BannerTemplate.html#a9a96a4d3b7e0ebe5105d0695ba15b57c',1,'bannerflow_app::models::BannerTemplate']]],
-  ['template_5ftypes_5',['TEMPLATE_TYPES',['../classbannerflow__app_1_1models_1_1BannerTemplate.html#a1d190624b9bd59e5766199bcec1d9429',1,'bannerflow_app::models::BannerTemplate']]],
-  ['templates_6',['TEMPLATES',['../namespacebannerflow__project_1_1settings.html#a6e8a814d8f4179b4f372e793a3d7fa79',1,'bannerflow_project::settings']]],
-  ['time_5fzone_7',['TIME_ZONE',['../namespacebannerflow__project_1_1settings.html#a4d062bd93c875bc820208ebeb9017b28',1,'bannerflow_project::settings']]],
-  ['title_8',['title',['../classbannerflow__app_1_1models_1_1Banner.html#afc98cbfc4a30e91f64a7d42cb612b27d',1,'bannerflow_app::models::Banner']]]
+  ['validate_5fmedia_5ffile_0',['validate_media_file',['../namespacebannerflow__app_1_1models.html#a05edcad65bd916d4099accc3d810f72a',1,'bannerflow_app::models']]],
+  ['verbose_5fname_1',['verbose_name',['../classbannerflow__app_1_1models_1_1CampaignStatistics_1_1Meta.html#ade05fe7bee3195d2b6830bc7db3849fa',1,'bannerflow_app.models.CampaignStatistics.Meta.verbose_name'],['../classbannerflow__app_1_1models_1_1BannerTemplate_1_1Meta.html#a266e26b64e2033b53361f27026771a20',1,'bannerflow_app.models.BannerTemplate.Meta.verbose_name'],['../classbannerflow__app_1_1models_1_1GameData_1_1Meta.html#a05d039ee3f5908ddaa57a8ce593780f4',1,'bannerflow_app.models.GameData.Meta.verbose_name'],['../classbannerflow__app_1_1models_1_1GeneratedBanner_1_1Meta.html#aae66471e003f69828655d2e78bae4186',1,'bannerflow_app.models.GeneratedBanner.Meta.verbose_name']]],
+  ['verbose_5fname_5fplural_2',['verbose_name_plural',['../classbannerflow__app_1_1models_1_1CampaignStatistics_1_1Meta.html#a1724489cdfb57212d16cda1eebb0b1c0',1,'bannerflow_app.models.CampaignStatistics.Meta.verbose_name_plural'],['../classbannerflow__app_1_1models_1_1BannerTemplate_1_1Meta.html#a58ff78930cca70ef12659f03e22938cd',1,'bannerflow_app.models.BannerTemplate.Meta.verbose_name_plural'],['../classbannerflow__app_1_1models_1_1GameData_1_1Meta.html#ab4d608e033ea87bb22ed41517871aa1c',1,'bannerflow_app.models.GameData.Meta.verbose_name_plural'],['../classbannerflow__app_1_1models_1_1GeneratedBanner_1_1Meta.html#ae6c7043012f9af950c4af620bd00886a',1,'bannerflow_app.models.GeneratedBanner.Meta.verbose_name_plural']]],
+  ['views_2epy_3',['views.py',['../views_8py.html',1,'']]]
 ];

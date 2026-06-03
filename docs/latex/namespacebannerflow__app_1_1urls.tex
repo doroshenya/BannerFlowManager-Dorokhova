@@ -1,0 +1,37 @@
+\doxysection{bannerflow\+\_\+app.\+urls Namespace Reference}
+\hypertarget{namespacebannerflow__app_1_1urls}{}\label{namespacebannerflow__app_1_1urls}\index{bannerflow\_app.urls@{bannerflow\_app.urls}}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{namespacebannerflow__app_1_1urls_a93cc1cb0bbc4a8581e783d29181567d4}{urlpatterns}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespacebannerflow__app_1_1urls_a93cc1cb0bbc4a8581e783d29181567d4}\label{namespacebannerflow__app_1_1urls_a93cc1cb0bbc4a8581e783d29181567d4} 
+\index{bannerflow\_app.urls@{bannerflow\_app.urls}!urlpatterns@{urlpatterns}}
+\index{urlpatterns@{urlpatterns}!bannerflow\_app.urls@{bannerflow\_app.urls}}
+\doxysubsubsection{\texorpdfstring{urlpatterns}{urlpatterns}}
+{\footnotesize\ttfamily list bannerflow\+\_\+app.\+urls.\+urlpatterns}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ =\ \ [}
+\DoxyCodeLine{00002\ \ \ \ \ \textcolor{comment}{\#\ Osnovnye\ stranitsy}}
+\DoxyCodeLine{00003\ \ \ \ \ path(\textcolor{stringliteral}{''},\ views.home,\ name=\textcolor{stringliteral}{'home'}),}
+\DoxyCodeLine{00004\ \ \ \ \ path(\textcolor{stringliteral}{'dashboard/'},\ views.dashboard,\ name=\textcolor{stringliteral}{'dashboard'}),}
+\DoxyCodeLine{00005\ \ \ \ \ }
+\DoxyCodeLine{00006\ \ \ \ \ \textcolor{comment}{\#\ Generator\ bannerov\ (osnovnaya\ funktsionalnost\ proekta)}}
+\DoxyCodeLine{00007\ \ \ \ \ path(\textcolor{stringliteral}{'generator/'},\ views.banner\_generator,\ name=\textcolor{stringliteral}{'banner\_generator'}),}
+\DoxyCodeLine{00008\ \ \ \ \ path(\textcolor{stringliteral}{'generate/'},\ views.generate\_banner,\ name=\textcolor{stringliteral}{'generate\_banner'}),}
+\DoxyCodeLine{00009\ \ \ \ \ path(\textcolor{stringliteral}{'banner/preview/<int:banner\_id>/'},\ views.banner\_preview,\ name=\textcolor{stringliteral}{'banner\_preview'}),}
+\DoxyCodeLine{00010\ \ \ \ \ path(\textcolor{stringliteral}{'banner/export/<int:banner\_id>/'},\ views.export\_banner,\ name=\textcolor{stringliteral}{'export\_banner'}),}
+\DoxyCodeLine{00011\ \ \ \ \ path(\textcolor{stringliteral}{'banner/list/'},\ views.banner\_list,\ name=\textcolor{stringliteral}{'banner\_list'}),}
+\DoxyCodeLine{00012\ \ \ \ \ }
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{comment}{\#\ API}}
+\DoxyCodeLine{00014\ \ \ \ \ path(\textcolor{stringliteral}{'api/public/banners/'},\ views.api\_banners,\ name=\textcolor{stringliteral}{'public\_banners'}),}
+\DoxyCodeLine{00015\ \ \ \ \ }
+\DoxyCodeLine{00016\ \ \ \ \ path(\textcolor{stringliteral}{'upload-\/data/'},\ views.upload\_game\_data,\ name=\textcolor{stringliteral}{'upload\_game\_data'}),}
+\DoxyCodeLine{00017\ ]}
+
+\end{DoxyCode}

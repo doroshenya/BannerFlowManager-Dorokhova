@@ -1,0 +1,101 @@
+\doxysection{bannerflow\+\_\+app.\+models.\+Campaign\+Statistics Class Reference}
+\hypertarget{classbannerflow__app_1_1models_1_1CampaignStatistics}{}\label{classbannerflow__app_1_1models_1_1CampaignStatistics}\index{bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}}
+
+
+Inheritance diagram for bannerflow\+\_\+app.\+models.\+Campaign\+Statistics\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{classbannerflow__app_1_1models_1_1CampaignStatistics__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for bannerflow\+\_\+app.\+models.\+Campaign\+Statistics\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{classbannerflow__app_1_1models_1_1CampaignStatistics__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbannerflow__app_1_1models_1_1CampaignStatistics_1_1Meta}{Meta}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1CampaignStatistics_a263cad7212cbf5d9bfc320a06749e761}{ctr}} (self)
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1CampaignStatistics_ab44f02daa6f9b2f22747a61838250865}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1CampaignStatistics_aa73494ef97018069910545ad47efb77d}{campaign}} = models.\+Foreign\+Key(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign}{Campaign}}, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Kampaniya"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1CampaignStatistics_ad5728795761a01de159c8b2562837eda}{date}} = models.\+Date\+Field(default=timezone.\+now, verbose\+\_\+name="{}Data"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1CampaignStatistics_a24a6e07b520eb946d4691d5965d73c46}{impressions}} = models.\+Integer\+Field(default=0, verbose\+\_\+name="{}Pokazy"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1CampaignStatistics_ae3d1ee8771eb92e2ff10921d954e262e}{clicks}} = models.\+Integer\+Field(default=0, verbose\+\_\+name="{}Kliki"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1CampaignStatistics_a000e42456ac9d78f641e69a24e4cb002}{conversions}} = models.\+Integer\+Field(default=0, verbose\+\_\+name="{}Konversii"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1CampaignStatistics_ab44f02daa6f9b2f22747a61838250865}\label{classbannerflow__app_1_1models_1_1CampaignStatistics_ab44f02daa6f9b2f22747a61838250865} 
+\index{bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign\+Statistics.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1CampaignStatistics_a263cad7212cbf5d9bfc320a06749e761}\label{classbannerflow__app_1_1models_1_1CampaignStatistics_a263cad7212cbf5d9bfc320a06749e761} 
+\index{bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}!ctr@{ctr}}
+\index{ctr@{ctr}!bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}}
+\doxysubsubsection{\texorpdfstring{ctr()}{ctr()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign\+Statistics.\+ctr (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}CTR (Click-Through Rate) v protsentah\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1CampaignStatistics_aa73494ef97018069910545ad47efb77d}\label{classbannerflow__app_1_1models_1_1CampaignStatistics_aa73494ef97018069910545ad47efb77d} 
+\index{bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}!campaign@{campaign}}
+\index{campaign@{campaign}!bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}}
+\doxysubsubsection{\texorpdfstring{campaign}{campaign}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign\+Statistics.\+campaign = models.\+Foreign\+Key(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign}{Campaign}}, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Kampaniya"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1CampaignStatistics_ae3d1ee8771eb92e2ff10921d954e262e}\label{classbannerflow__app_1_1models_1_1CampaignStatistics_ae3d1ee8771eb92e2ff10921d954e262e} 
+\index{bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}!clicks@{clicks}}
+\index{clicks@{clicks}!bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}}
+\doxysubsubsection{\texorpdfstring{clicks}{clicks}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign\+Statistics.\+clicks = models.\+Integer\+Field(default=0, verbose\+\_\+name="{}Kliki"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1CampaignStatistics_a000e42456ac9d78f641e69a24e4cb002}\label{classbannerflow__app_1_1models_1_1CampaignStatistics_a000e42456ac9d78f641e69a24e4cb002} 
+\index{bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}!conversions@{conversions}}
+\index{conversions@{conversions}!bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}}
+\doxysubsubsection{\texorpdfstring{conversions}{conversions}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign\+Statistics.\+conversions = models.\+Integer\+Field(default=0, verbose\+\_\+name="{}Konversii"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1CampaignStatistics_ad5728795761a01de159c8b2562837eda}\label{classbannerflow__app_1_1models_1_1CampaignStatistics_ad5728795761a01de159c8b2562837eda} 
+\index{bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}!date@{date}}
+\index{date@{date}!bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}}
+\doxysubsubsection{\texorpdfstring{date}{date}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign\+Statistics.\+date = models.\+Date\+Field(default=timezone.\+now, verbose\+\_\+name="{}Data"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1CampaignStatistics_a24a6e07b520eb946d4691d5965d73c46}\label{classbannerflow__app_1_1models_1_1CampaignStatistics_a24a6e07b520eb946d4691d5965d73c46} 
+\index{bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}!impressions@{impressions}}
+\index{impressions@{impressions}!bannerflow\_app.models.CampaignStatistics@{bannerflow\_app.models.CampaignStatistics}}
+\doxysubsubsection{\texorpdfstring{impressions}{impressions}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign\+Statistics.\+impressions = models.\+Integer\+Field(default=0, verbose\+\_\+name="{}Pokazy"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+bannerflow\+\_\+app/\mbox{\hyperlink{models_8py}{models.\+py}}\end{DoxyCompactItemize}

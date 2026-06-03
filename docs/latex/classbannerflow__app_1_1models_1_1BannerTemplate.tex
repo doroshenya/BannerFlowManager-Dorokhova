@@ -1,0 +1,146 @@
+\doxysection{bannerflow\+\_\+app.\+models.\+Banner\+Template Class Reference}
+\hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate}{}\label{classbannerflow__app_1_1models_1_1BannerTemplate}\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+
+
+Inheritance diagram for bannerflow\+\_\+app.\+models.\+Banner\+Template\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classbannerflow__app_1_1models_1_1BannerTemplate__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for bannerflow\+\_\+app.\+models.\+Banner\+Template\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classbannerflow__app_1_1models_1_1BannerTemplate__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_1_1Meta}{Meta}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_a1dbe847cfddcdb3e346f55b3021d292b}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_a1d190624b9bd59e5766199bcec1d9429}{TEMPLATE\+\_\+\+TYPES}}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_a4f4cd5915309d7aa902fadeda5c1bdf2}{name}} = models.\+Char\+Field(max\+\_\+length=100, verbose\+\_\+name="{}Nazvanie shablona"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_a9a96a4d3b7e0ebe5105d0695ba15b57c}{template\+\_\+type}} = models.\+Char\+Field(max\+\_\+length=20, choices=\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_a1d190624b9bd59e5766199bcec1d9429}{TEMPLATE\+\_\+\+TYPES}}, default=\textquotesingle{}custom\textquotesingle{}, verbose\+\_\+name="{}Tip shablona"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_a6d227b3ed4bcc5370ee71059ca0b5f6c}{html\+\_\+template}} = models.\+Text\+Field(verbose\+\_\+name="{}HTML shablon"{}, help\+\_\+text="{}Ispolzuyte \{\{ peremennye \}\} dlya podstanovki"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_a5eca66643d4c378d6d03ca1f2ed8cf72}{css\+\_\+styles}} = models.\+Text\+Field(verbose\+\_\+name="{}CSS stili"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_ac846133460938f666f4fd2d0af089993}{javascript}} = models.\+Text\+Field(verbose\+\_\+name="{}Java\+Script kod"{}, blank=True, help\+\_\+text="{}Dlya interaktivnosti"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_af08c4b6eae5050a31d7a18cfcc4464a5}{width}} = models.\+Integer\+Field(default=300, verbose\+\_\+name="{}Shirina (px)"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_afa9f06260273f1624998217ce6187a5b}{height}} = models.\+Integer\+Field(default=250, verbose\+\_\+name="{}Vysota (px)"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_acbb423ecfdb1901f5ad2dc8a1beb2e48}{preview\+\_\+image}} = models.\+Image\+Field(upload\+\_\+to=\textquotesingle{}templates/previews/\textquotesingle{}, blank=True, verbose\+\_\+name="{}Prevyu"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_a71fee54b965311e3561f55f1dfa2e195}{created\+\_\+at}} = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Shablon dlya generatsii interaktivnyh HTML5 bannerov\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_a1dbe847cfddcdb3e346f55b3021d292b}\label{classbannerflow__app_1_1models_1_1BannerTemplate_a1dbe847cfddcdb3e346f55b3021d292b} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner\+Template.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_a71fee54b965311e3561f55f1dfa2e195}\label{classbannerflow__app_1_1models_1_1BannerTemplate_a71fee54b965311e3561f55f1dfa2e195} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!created\_at@{created\_at}}
+\index{created\_at@{created\_at}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{created\_at}{created\_at}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner\+Template.\+created\+\_\+at = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_a5eca66643d4c378d6d03ca1f2ed8cf72}\label{classbannerflow__app_1_1models_1_1BannerTemplate_a5eca66643d4c378d6d03ca1f2ed8cf72} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!css\_styles@{css\_styles}}
+\index{css\_styles@{css\_styles}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{css\_styles}{css\_styles}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner\+Template.\+css\+\_\+styles = models.\+Text\+Field(verbose\+\_\+name="{}CSS stili"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_afa9f06260273f1624998217ce6187a5b}\label{classbannerflow__app_1_1models_1_1BannerTemplate_afa9f06260273f1624998217ce6187a5b} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!height@{height}}
+\index{height@{height}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{height}{height}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner\+Template.\+height = models.\+Integer\+Field(default=250, verbose\+\_\+name="{}Vysota (px)"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_a6d227b3ed4bcc5370ee71059ca0b5f6c}\label{classbannerflow__app_1_1models_1_1BannerTemplate_a6d227b3ed4bcc5370ee71059ca0b5f6c} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!html\_template@{html\_template}}
+\index{html\_template@{html\_template}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{html\_template}{html\_template}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner\+Template.\+html\+\_\+template = models.\+Text\+Field(verbose\+\_\+name="{}HTML shablon"{}, help\+\_\+text="{}Ispolzuyte \{\{ peremennye \}\} dlya podstanovki"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_ac846133460938f666f4fd2d0af089993}\label{classbannerflow__app_1_1models_1_1BannerTemplate_ac846133460938f666f4fd2d0af089993} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!javascript@{javascript}}
+\index{javascript@{javascript}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{javascript}{javascript}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner\+Template.\+javascript = models.\+Text\+Field(verbose\+\_\+name="{}Java\+Script kod"{}, blank=True, help\+\_\+text="{}Dlya interaktivnosti"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_a4f4cd5915309d7aa902fadeda5c1bdf2}\label{classbannerflow__app_1_1models_1_1BannerTemplate_a4f4cd5915309d7aa902fadeda5c1bdf2} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!name@{name}}
+\index{name@{name}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner\+Template.\+name = models.\+Char\+Field(max\+\_\+length=100, verbose\+\_\+name="{}Nazvanie shablona"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_acbb423ecfdb1901f5ad2dc8a1beb2e48}\label{classbannerflow__app_1_1models_1_1BannerTemplate_acbb423ecfdb1901f5ad2dc8a1beb2e48} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!preview\_image@{preview\_image}}
+\index{preview\_image@{preview\_image}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{preview\_image}{preview\_image}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner\+Template.\+preview\+\_\+image = models.\+Image\+Field(upload\+\_\+to=\textquotesingle{}templates/previews/\textquotesingle{}, blank=True, verbose\+\_\+name="{}Prevyu"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_a9a96a4d3b7e0ebe5105d0695ba15b57c}\label{classbannerflow__app_1_1models_1_1BannerTemplate_a9a96a4d3b7e0ebe5105d0695ba15b57c} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!template\_type@{template\_type}}
+\index{template\_type@{template\_type}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{template\_type}{template\_type}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner\+Template.\+template\+\_\+type = models.\+Char\+Field(max\+\_\+length=20, choices=\mbox{\hyperlink{classbannerflow__app_1_1models_1_1BannerTemplate_a1d190624b9bd59e5766199bcec1d9429}{TEMPLATE\+\_\+\+TYPES}}, default=\textquotesingle{}custom\textquotesingle{}, verbose\+\_\+name="{}Tip shablona"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_a1d190624b9bd59e5766199bcec1d9429}\label{classbannerflow__app_1_1models_1_1BannerTemplate_a1d190624b9bd59e5766199bcec1d9429} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!TEMPLATE\_TYPES@{TEMPLATE\_TYPES}}
+\index{TEMPLATE\_TYPES@{TEMPLATE\_TYPES}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{TEMPLATE\_TYPES}{TEMPLATE\_TYPES}}
+{\footnotesize\ttfamily list bannerflow\+\_\+app.\+models.\+Banner\+Template.\+TEMPLATE\+\_\+\+TYPES\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'score'},\ \textcolor{stringliteral}{'Banner\ so\ schetom'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'achievement'},\ \textcolor{stringliteral}{'Banner\ s\ dostizheniem'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'level'},\ \textcolor{stringliteral}{'Banner\ s\ urovnem'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'custom'},\ \textcolor{stringliteral}{'Polzovatelskiy\ shablon'}),}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classbannerflow__app_1_1models_1_1BannerTemplate_af08c4b6eae5050a31d7a18cfcc4464a5}\label{classbannerflow__app_1_1models_1_1BannerTemplate_af08c4b6eae5050a31d7a18cfcc4464a5} 
+\index{bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}!width@{width}}
+\index{width@{width}!bannerflow\_app.models.BannerTemplate@{bannerflow\_app.models.BannerTemplate}}
+\doxysubsubsection{\texorpdfstring{width}{width}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner\+Template.\+width = models.\+Integer\+Field(default=300, verbose\+\_\+name="{}Shirina (px)"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+bannerflow\+\_\+app/\mbox{\hyperlink{models_8py}{models.\+py}}\end{DoxyCompactItemize}

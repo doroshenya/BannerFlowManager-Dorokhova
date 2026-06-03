@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -27,7 +23,6 @@
   <td id="projectalign">
    <div id="projectname">BannerFlow Manager API<span id="projectnumber">&#160;1.0</span>
    </div>
-   <div id="projectbrief">Django-based advertising banner management system</div>
   </td>
  </tr>
  </tbody>
@@ -52,22 +47,6 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -149,28 +128,22 @@ $(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); 
 <area shape="rect" href="classbannerflow__app_1_1models_1_1GeneratedBanner_1_1Meta.html" title=" " alt="" coords="5,5,255,45"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_7.png" border="0" usemap="#amigrations_8Migration" alt=""/>
-<map name="amigrations_8Migration" id="amigrations_8Migration">
-<area shape="rect" title=" " alt="" coords="5,267,164,293"/>
-<area shape="rect" href="classbannerflow__app_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="258,5,493,45"/>
-<area shape="poly" title=" " alt="" coords="90,253,105,209,130,155,164,101,186,76,210,55,233,42,257,33,259,38,235,47,214,60,190,80,168,104,134,158,110,211,95,255"/>
-<area shape="rect" href="classbannerflow__app_1_1migrations_1_10002__campaign__start__date_1_1Migration.html" title=" " alt="" coords="258,69,493,109"/>
-<area shape="poly" title=" " alt="" coords="96,254,114,222,140,186,172,149,211,119,257,99,259,104,213,124,176,153,144,189,119,225,101,256"/>
-<area shape="rect" href="classbannerflow__app_1_1migrations_1_10003__campaign__end__date__campaign__target__game__version__and__more_1_1Migration.html" title=" " alt="" coords="223,134,528,189"/>
-<area shape="poly" title=" " alt="" coords="112,257,157,226,211,198,241,186,243,191,213,202,159,231,115,261"/>
-<area shape="rect" href="classbannerflow__app_1_1migrations_1_10004__campaign__is__ab__test__abtest__campaignstatistics_1_1Migration.html" title=" " alt="" coords="258,213,493,267"/>
-<area shape="poly" title=" " alt="" coords="177,265,257,253,258,259,178,270"/>
-<area shape="rect" href="classbannerflow__app_1_1migrations_1_10005__remove__banner__image__url__banner__media__file__and__more_1_1Migration.html" title=" " alt="" coords="248,291,503,346"/>
-<area shape="poly" title=" " alt="" coords="178,290,248,299,248,304,178,295"/>
-<area shape="rect" href="classbannerflow__app_1_1migrations_1_10006__alter__banner__media__file_1_1Migration.html" title=" " alt="" coords="249,371,501,411"/>
-<area shape="poly" title=" " alt="" coords="115,299,160,328,213,355,254,368,252,373,211,360,157,333,112,303"/>
-<area shape="rect" href="classbannerflow__app_1_1migrations_1_10007__alter__banner__media__file_1_1Migration.html" title=" " alt="" coords="249,435,501,475"/>
-<area shape="poly" title=" " alt="" coords="102,303,147,363,178,394,213,420,250,436,248,441,211,425,174,399,143,366,98,306"/>
-<area shape="rect" href="classbannerflow__app_1_1migrations_1_10008__bannertemplate__gamedata__generatedbanner_1_1Migration.html" title=" " alt="" coords="212,499,539,554"/>
-<area shape="poly" title=" " alt="" coords="97,305,113,346,138,394,171,443,191,465,214,485,234,497,231,501,210,489,187,469,167,447,133,397,108,348,92,307"/>
+<tr><td><img src="inherit_graph_7.png" border="0" usemap="#abannerflow__app_8services_8BannerService" alt=""/>
+<map name="abannerflow__app_8services_8BannerService" id="abannerflow__app_8services_8BannerService">
+<area shape="rect" href="classbannerflow__app_1_1services_1_1BannerService.html" title=" " alt="" coords="5,5,192,45"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_8.png" border="0" usemap="#amodels_8Model" alt=""/>
+<tr><td><img src="inherit_graph_8.png" border="0" usemap="#abannerflow__app_8services_8NotificationService" alt=""/>
+<map name="abannerflow__app_8services_8NotificationService" id="abannerflow__app_8services_8NotificationService">
+<area shape="rect" href="classbannerflow__app_1_1services_1_1NotificationService.html" title=" " alt="" coords="5,5,192,45"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_9.png" border="0" usemap="#abannerflow__app_8services_8StatisticsService" alt=""/>
+<map name="abannerflow__app_8services_8StatisticsService" id="abannerflow__app_8services_8StatisticsService">
+<area shape="rect" href="classbannerflow__app_1_1services_1_1StatisticsService.html" title=" " alt="" coords="5,5,192,45"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_10.png" border="0" usemap="#amodels_8Model" alt=""/>
 <map name="amodels_8Model" id="amodels_8Model">
 <area shape="rect" title=" " alt="" coords="5,199,120,224"/>
 <area shape="rect" href="classbannerflow__app_1_1models_1_1ABTest.html" title=" " alt="" coords="181,5,406,31"/>
@@ -191,7 +164,26 @@ $(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); 
 <area shape="poly" title=" " alt="" coords="75,236,88,270,108,310,135,350,170,384,189,395,186,400,166,388,131,354,104,313,83,272,70,238"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_9.png" border="0" usemap="#aUserAdmin" alt=""/>
+<tr><td><img src="inherit_graph_11.png" border="0" usemap="#aTestCase" alt=""/>
+<map name="aTestCase" id="aTestCase">
+<area shape="rect" title=" " alt="" coords="5,205,85,230"/>
+<area shape="rect" href="classbannerflow__app_1_1tests_1_1TestAPIAndServices.html" title=" " alt="" coords="133,5,324,45"/>
+<area shape="poly" title=" " alt="" coords="52,191,79,124,102,87,132,55,150,43,153,48,135,59,107,90,84,126,56,193"/>
+<area shape="rect" href="classbannerflow__app_1_1tests_1_1TestBannerGenerator.html" title=" " alt="" coords="133,69,324,109"/>
+<area shape="poly" title=" " alt="" coords="61,191,91,154,132,119,154,107,157,112,135,124,95,158,65,194"/>
+<area shape="rect" href="classbannerflow__app_1_1tests_1_1TestBannerModel.html" title=" " alt="" coords="133,133,324,173"/>
+<area shape="poly" title=" " alt="" coords="93,197,132,183,167,171,168,176,134,188,95,202"/>
+<area shape="rect" href="classbannerflow__app_1_1tests_1_1TestBannerTemplateModel.html" title=" " alt="" coords="133,197,324,237"/>
+<area shape="poly" title=" " alt="" coords="99,215,133,215,133,220,99,220"/>
+<area shape="rect" href="classbannerflow__app_1_1tests_1_1TestCampaignModel.html" title=" " alt="" coords="133,261,324,301"/>
+<area shape="poly" title=" " alt="" coords="95,232,134,247,168,259,167,264,132,252,93,237"/>
+<area shape="rect" href="classbannerflow__app_1_1tests_1_1TestGameDataModel.html" title=" " alt="" coords="133,325,324,365"/>
+<area shape="poly" title=" " alt="" coords="65,240,95,277,135,311,157,323,154,328,132,316,91,280,61,244"/>
+<area shape="rect" href="classbannerflow__app_1_1tests_1_1TestNegativeScenarios.html" title=" " alt="" coords="133,389,324,429"/>
+<area shape="poly" title=" " alt="" coords="56,242,84,309,107,344,135,375,153,387,150,391,132,379,102,348,79,311,52,244"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_12.png" border="0" usemap="#aUserAdmin" alt=""/>
 <map name="aUserAdmin" id="aUserAdmin">
 <area shape="rect" title=" " alt="" coords="5,13,100,38"/>
 <area shape="rect" href="classbannerflow__app_1_1admin_1_1CustomUserAdmin.html" title=" " alt="" coords="148,5,372,45"/>
@@ -200,12 +192,9 @@ $(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); 
 </td></tr>
 </table>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

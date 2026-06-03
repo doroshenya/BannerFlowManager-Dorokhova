@@ -1,0 +1,243 @@
+\doxysection{bannerflow\+\_\+app.\+models.\+Campaign Class Reference}
+\hypertarget{classbannerflow__app_1_1models_1_1Campaign}{}\label{classbannerflow__app_1_1models_1_1Campaign}\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+
+
+Inheritance diagram for bannerflow\+\_\+app.\+models.\+Campaign\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{classbannerflow__app_1_1models_1_1Campaign__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for bannerflow\+\_\+app.\+models.\+Campaign\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{classbannerflow__app_1_1models_1_1Campaign__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_a5d943f51f882d86751ab1adc8cd8c910}{activate}} (self)
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_aedd83961dc7f2188735136be39db9460}{pause}} (self)
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_a2562d5436317965a49de110045ecc817}{stop}} (self)
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_acbadf78b52a966aae09ffed3290fb1d9}{status\+\_\+color}} (self)
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_a694bfa6e283fd93285b8b35e01776883}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_af9d8f5213205ec3bf3140f04a0d264d3}{STATUS\+\_\+\+CHOICES}}
+\item 
+list \mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_ad896eec17a98c9cc71ac78e2d8a4a27e}{PLATFORM\+\_\+\+CHOICES}}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_ac8b9b96ea2d823794bffb42f37e77c1b}{name}} = models.\+Char\+Field(max\+\_\+length=255, verbose\+\_\+name="{}Nazvanie kampanii"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_abae6fb8b6aeb2f1e507f3ffbcd76f212}{budget}}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_acd04004d4f450b92c8da5b42761a28d1}{start\+\_\+date}} = models.\+Date\+Time\+Field(default=timezone.\+now, verbose\+\_\+name="{}Data nachala"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_a8e489dbd8ba4a15d7de3a986d9e29121}{end\+\_\+date}} = models.\+Date\+Time\+Field(default=timezone.\+now, verbose\+\_\+name="{}Data okonchaniya"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_ab6c49c41f31448a081d431030e9608f3}{status}} = models.\+Char\+Field(max\+\_\+length=20, choices=\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_af9d8f5213205ec3bf3140f04a0d264d3}{STATUS\+\_\+\+CHOICES}}, default=\textquotesingle{}draft\textquotesingle{}, verbose\+\_\+name="{}Status"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_a6ab2bce6b678f3704d1addb9f0b78666}{target\+\_\+geolocation}}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_a76c528e2de0c9837087797c9337a72e9}{target\+\_\+platform}}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_a5ce3c30283312ecccd438a5ab0153ddd}{target\+\_\+game\+\_\+version}}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_a21a9959ec830b1668f5e76ec3d2d3777}{is\+\_\+ab\+\_\+test}} = models.\+Boolean\+Field(default=False, verbose\+\_\+name="{}A/B test"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_a71793c75c3fff9fbcbd7705ba36dda80}{created\+\_\+by}} = models.\+Foreign\+Key(User, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Sozdatel"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_ac977a3b322bac4a6a71bc2f98bf344c6}{created\+\_\+at}} = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_a694bfa6e283fd93285b8b35e01776883}\label{classbannerflow__app_1_1models_1_1Campaign_a694bfa6e283fd93285b8b35e01776883} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_a5d943f51f882d86751ab1adc8cd8c910}\label{classbannerflow__app_1_1models_1_1Campaign_a5d943f51f882d86751ab1adc8cd8c910} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!activate@{activate}}
+\index{activate@{activate}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{activate()}{activate()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+activate (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Aktivirovat kampaniyu\end{DoxyVerb}
+ \Hypertarget{classbannerflow__app_1_1models_1_1Campaign_aedd83961dc7f2188735136be39db9460}\label{classbannerflow__app_1_1models_1_1Campaign_aedd83961dc7f2188735136be39db9460} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!pause@{pause}}
+\index{pause@{pause}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{pause()}{pause()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+pause (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Priostanovit kampaniyu\end{DoxyVerb}
+ \Hypertarget{classbannerflow__app_1_1models_1_1Campaign_acbadf78b52a966aae09ffed3290fb1d9}\label{classbannerflow__app_1_1models_1_1Campaign_acbadf78b52a966aae09ffed3290fb1d9} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!status\_color@{status\_color}}
+\index{status\_color@{status\_color}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{status\_color()}{status\_color()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+status\+\_\+color (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_a2562d5436317965a49de110045ecc817}\label{classbannerflow__app_1_1models_1_1Campaign_a2562d5436317965a49de110045ecc817} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!stop@{stop}}
+\index{stop@{stop}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{stop()}{stop()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+stop (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Ostanovit kampaniyu\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_abae6fb8b6aeb2f1e507f3ffbcd76f212}\label{classbannerflow__app_1_1models_1_1Campaign_abae6fb8b6aeb2f1e507f3ffbcd76f212} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!budget@{budget}}
+\index{budget@{budget}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{budget}{budget}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+budget\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ models.DecimalField(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ max\_digits=10,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ decimal\_places=2,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ validators=[MinValueValidator(0)],}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ verbose\_name=\textcolor{stringliteral}{"{}Byudzhet"{}}}
+\DoxyCodeLine{\ \ \ \ )}
+
+\end{DoxyCode}
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_ac977a3b322bac4a6a71bc2f98bf344c6}\label{classbannerflow__app_1_1models_1_1Campaign_ac977a3b322bac4a6a71bc2f98bf344c6} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!created\_at@{created\_at}}
+\index{created\_at@{created\_at}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{created\_at}{created\_at}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+created\+\_\+at = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_a71793c75c3fff9fbcbd7705ba36dda80}\label{classbannerflow__app_1_1models_1_1Campaign_a71793c75c3fff9fbcbd7705ba36dda80} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!created\_by@{created\_by}}
+\index{created\_by@{created\_by}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{created\_by}{created\_by}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+created\+\_\+by = models.\+Foreign\+Key(User, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Sozdatel"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_a8e489dbd8ba4a15d7de3a986d9e29121}\label{classbannerflow__app_1_1models_1_1Campaign_a8e489dbd8ba4a15d7de3a986d9e29121} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!end\_date@{end\_date}}
+\index{end\_date@{end\_date}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{end\_date}{end\_date}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+end\+\_\+date = models.\+Date\+Time\+Field(default=timezone.\+now, verbose\+\_\+name="{}Data okonchaniya"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_a21a9959ec830b1668f5e76ec3d2d3777}\label{classbannerflow__app_1_1models_1_1Campaign_a21a9959ec830b1668f5e76ec3d2d3777} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!is\_ab\_test@{is\_ab\_test}}
+\index{is\_ab\_test@{is\_ab\_test}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{is\_ab\_test}{is\_ab\_test}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+is\+\_\+ab\+\_\+test = models.\+Boolean\+Field(default=False, verbose\+\_\+name="{}A/B test"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_ac8b9b96ea2d823794bffb42f37e77c1b}\label{classbannerflow__app_1_1models_1_1Campaign_ac8b9b96ea2d823794bffb42f37e77c1b} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!name@{name}}
+\index{name@{name}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+name = models.\+Char\+Field(max\+\_\+length=255, verbose\+\_\+name="{}Nazvanie kampanii"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_ad896eec17a98c9cc71ac78e2d8a4a27e}\label{classbannerflow__app_1_1models_1_1Campaign_ad896eec17a98c9cc71ac78e2d8a4a27e} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!PLATFORM\_CHOICES@{PLATFORM\_CHOICES}}
+\index{PLATFORM\_CHOICES@{PLATFORM\_CHOICES}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{PLATFORM\_CHOICES}{PLATFORM\_CHOICES}}
+{\footnotesize\ttfamily list bannerflow\+\_\+app.\+models.\+Campaign.\+PLATFORM\+\_\+\+CHOICES\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'iOS'},\ \textcolor{stringliteral}{'iOS'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'Android'},\ \textcolor{stringliteral}{'Android'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'Both'},\ \textcolor{stringliteral}{'iOS\ i\ Android'}),}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_acd04004d4f450b92c8da5b42761a28d1}\label{classbannerflow__app_1_1models_1_1Campaign_acd04004d4f450b92c8da5b42761a28d1} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!start\_date@{start\_date}}
+\index{start\_date@{start\_date}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{start\_date}{start\_date}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+start\+\_\+date = models.\+Date\+Time\+Field(default=timezone.\+now, verbose\+\_\+name="{}Data nachala"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_ab6c49c41f31448a081d431030e9608f3}\label{classbannerflow__app_1_1models_1_1Campaign_ab6c49c41f31448a081d431030e9608f3} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!status@{status}}
+\index{status@{status}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{status}{status}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+status = models.\+Char\+Field(max\+\_\+length=20, choices=\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign_af9d8f5213205ec3bf3140f04a0d264d3}{STATUS\+\_\+\+CHOICES}}, default=\textquotesingle{}draft\textquotesingle{}, verbose\+\_\+name="{}Status"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_af9d8f5213205ec3bf3140f04a0d264d3}\label{classbannerflow__app_1_1models_1_1Campaign_af9d8f5213205ec3bf3140f04a0d264d3} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!STATUS\_CHOICES@{STATUS\_CHOICES}}
+\index{STATUS\_CHOICES@{STATUS\_CHOICES}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{STATUS\_CHOICES}{STATUS\_CHOICES}}
+{\footnotesize\ttfamily list bannerflow\+\_\+app.\+models.\+Campaign.\+STATUS\+\_\+\+CHOICES\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'draft'},\ \textcolor{stringliteral}{'Chernovik'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'active'},\ \textcolor{stringliteral}{'Aktivna'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'paused'},\ \textcolor{stringliteral}{'Priostanovlena'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'stopped'},\ \textcolor{stringliteral}{'Ostanovlena'}),}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_a5ce3c30283312ecccd438a5ab0153ddd}\label{classbannerflow__app_1_1models_1_1Campaign_a5ce3c30283312ecccd438a5ab0153ddd} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!target\_game\_version@{target\_game\_version}}
+\index{target\_game\_version@{target\_game\_version}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{target\_game\_version}{target\_game\_version}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+target\+\_\+game\+\_\+version\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ models.CharField(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ max\_length=50,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ blank=\textcolor{keyword}{True},\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ verbose\_name=\textcolor{stringliteral}{"{}Versiya\ igry"{}}}
+\DoxyCodeLine{\ \ \ \ )}
+
+\end{DoxyCode}
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_a6ab2bce6b678f3704d1addb9f0b78666}\label{classbannerflow__app_1_1models_1_1Campaign_a6ab2bce6b678f3704d1addb9f0b78666} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!target\_geolocation@{target\_geolocation}}
+\index{target\_geolocation@{target\_geolocation}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{target\_geolocation}{target\_geolocation}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+target\+\_\+geolocation\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ models.JSONField(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ default=list,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ verbose\_name=\textcolor{stringliteral}{"{}Geolokatsiya"{}},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ help\_text=\textcolor{stringliteral}{"{}Spisok\ stran/regionov\ dlya\ targetinga"{}}}
+\DoxyCodeLine{\ \ \ \ )}
+
+\end{DoxyCode}
+\Hypertarget{classbannerflow__app_1_1models_1_1Campaign_a76c528e2de0c9837087797c9337a72e9}\label{classbannerflow__app_1_1models_1_1Campaign_a76c528e2de0c9837087797c9337a72e9} 
+\index{bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}!target\_platform@{target\_platform}}
+\index{target\_platform@{target\_platform}!bannerflow\_app.models.Campaign@{bannerflow\_app.models.Campaign}}
+\doxysubsubsection{\texorpdfstring{target\_platform}{target\_platform}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Campaign.\+target\+\_\+platform\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ models.CharField(}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ max\_length=10,\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ choices=PLATFORM\_CHOICES,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ default=\textcolor{stringliteral}{'Both'},}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ verbose\_name=\textcolor{stringliteral}{"{}Tselevaya\ platforma"{}}}
+\DoxyCodeLine{\ \ \ \ )}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+bannerflow\+\_\+app/\mbox{\hyperlink{models_8py}{models.\+py}}\end{DoxyCompactItemize}

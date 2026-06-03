@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['phone_0',['phone',['../classbannerflow__app_1_1models_1_1UserProfile.html#a71dd0898f21aae321d097958be8d48d3',1,'bannerflow_app::models::UserProfile']]],
-  ['platform_5fchoices_1',['PLATFORM_CHOICES',['../classbannerflow__app_1_1models_1_1Campaign.html#ad896eec17a98c9cc71ac78e2d8a4a27e',1,'bannerflow_app::models::Campaign']]],
-  ['play_5ftime_2',['play_time',['../classbannerflow__app_1_1models_1_1GameData.html#a80301604e23b0c3f3cea488947aead78',1,'bannerflow_app::models::GameData']]],
-  ['player_5fname_3',['player_name',['../classbannerflow__app_1_1models_1_1GameData.html#aab18b8a76bcf74ed8ddb5fc026950363',1,'bannerflow_app::models::GameData']]],
-  ['preview_5fimage_4',['preview_image',['../classbannerflow__app_1_1models_1_1BannerTemplate.html#acbb423ecfdb1901f5ad2dc8a1beb2e48',1,'bannerflow_app::models::BannerTemplate']]],
-  ['preview_5furl_5',['preview_url',['../classbannerflow__app_1_1models_1_1GeneratedBanner.html#a3b53cbbd5bbf673fabcb4b06c5bd7e4e',1,'bannerflow_app::models::GeneratedBanner']]]
+  ['readonly_5ffields_0',['readonly_fields',['../classbannerflow__app_1_1admin_1_1CampaignAdmin.html#a48770ca85abf75fb81c99988591b2177',1,'bannerflow_app.admin.CampaignAdmin.readonly_fields'],['../classbannerflow__app_1_1admin_1_1BannerAdmin.html#a2debce614ae33808d239bdad62c96394',1,'bannerflow_app.admin.BannerAdmin.readonly_fields'],['../classbannerflow__app_1_1admin_1_1CampaignStatisticsAdmin.html#a75ae418a0a213eb2289e58cfbbb68d69',1,'bannerflow_app.admin.CampaignStatisticsAdmin.readonly_fields'],['../classbannerflow__app_1_1admin_1_1GeneratedBannerAdmin.html#a2c40b4f9993c6cbc15ba476c5d422314',1,'bannerflow_app.admin.GeneratedBannerAdmin.readonly_fields']]],
+  ['rest_5fframework_1',['REST_FRAMEWORK',['../namespacebannerflow__project_1_1settings.html#a331d14b96935f35daf213720e20c73b8',1,'bannerflow_project::settings']]],
+  ['role_2',['role',['../classbannerflow__app_1_1models_1_1UserProfile.html#a7212a3648abc0c2c0e909a43b37cf0f9',1,'bannerflow_app::models::UserProfile']]],
+  ['role_5fchoices_3',['ROLE_CHOICES',['../classbannerflow__app_1_1models_1_1UserProfile.html#a816f76dff6ffd44797b92ecb0db402a9',1,'bannerflow_app::models::UserProfile']]],
+  ['root_5furlconf_4',['ROOT_URLCONF',['../namespacebannerflow__project_1_1settings.html#a9d34b134a99cc8ef04f8cb03aa0841de',1,'bannerflow_project::settings']]]
 ];

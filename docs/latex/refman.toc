@@ -1,0 +1,348 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}README}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Namespace Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Namespace List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Hierarchical Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class Hierarchy}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Class Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Class List}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}File Index}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}File List}{9}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Namespace Documentation}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app Namespace Reference}{11}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{11}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin Namespace Reference}{11}{section.6.2}%
+\contentsline {section}{\numberline {6.3}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}generator Namespace Reference}{12}{section.6.3}%
+\contentsline {section}{\numberline {6.4}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models Namespace Reference}{12}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Function Documentation}{12}{subsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.1}validate\_media\_file()}{12}{subsubsection.6.4.1.1}%
+\contentsline {section}{\numberline {6.5}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}services Namespace Reference}{12}{section.6.5}%
+\contentsline {section}{\numberline {6.6}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests Namespace Reference}{13}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{13}{subsection.6.6.1}%
+\contentsline {section}{\numberline {6.7}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}urls Namespace Reference}{13}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Variable Documentation}{13}{subsection.6.7.1}%
+\contentsline {subsubsection}{\numberline {6.7.1.1}urlpatterns}{13}{subsubsection.6.7.1.1}%
+\contentsline {section}{\numberline {6.8}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}views Namespace Reference}{13}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Function Documentation}{14}{subsection.6.8.1}%
+\contentsline {subsubsection}{\numberline {6.8.1.1}api\_banners()}{14}{subsubsection.6.8.1.1}%
+\contentsline {subsubsection}{\numberline {6.8.1.2}banner\_generator()}{14}{subsubsection.6.8.1.2}%
+\contentsline {subsubsection}{\numberline {6.8.1.3}banner\_list()}{14}{subsubsection.6.8.1.3}%
+\contentsline {subsubsection}{\numberline {6.8.1.4}banner\_preview()}{14}{subsubsection.6.8.1.4}%
+\contentsline {subsubsection}{\numberline {6.8.1.5}dashboard()}{14}{subsubsection.6.8.1.5}%
+\contentsline {subsubsection}{\numberline {6.8.1.6}export\_banner()}{15}{subsubsection.6.8.1.6}%
+\contentsline {subsubsection}{\numberline {6.8.1.7}generate\_banner()}{15}{subsubsection.6.8.1.7}%
+\contentsline {subsubsection}{\numberline {6.8.1.8}home()}{15}{subsubsection.6.8.1.8}%
+\contentsline {subsubsection}{\numberline {6.8.1.9}upload\_game\_data()}{15}{subsubsection.6.8.1.9}%
+\contentsline {section}{\numberline {6.9}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}project Namespace Reference}{15}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{15}{subsection.6.9.1}%
+\contentsline {section}{\numberline {6.10}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}project.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}settings Namespace Reference}{16}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{16}{subsection.6.10.1}%
+\contentsline {subsection}{\numberline {6.10.2}Variable Documentation}{16}{subsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.1}ALLOWED\_HOSTS}{16}{subsubsection.6.10.2.1}%
+\contentsline {subsubsection}{\numberline {6.10.2.2}BASE\_DIR}{16}{subsubsection.6.10.2.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.3}DATABASES}{17}{subsubsection.6.10.2.3}%
+\contentsline {subsubsection}{\numberline {6.10.2.4}DEBUG}{17}{subsubsection.6.10.2.4}%
+\contentsline {subsubsection}{\numberline {6.10.2.5}DEFAULT\_AUTO\_FIELD}{17}{subsubsection.6.10.2.5}%
+\contentsline {subsubsection}{\numberline {6.10.2.6}DEFAULT\_FROM\_EMAIL}{17}{subsubsection.6.10.2.6}%
+\contentsline {subsubsection}{\numberline {6.10.2.7}EMAIL\_BACKEND}{17}{subsubsection.6.10.2.7}%
+\contentsline {subsubsection}{\numberline {6.10.2.8}EMAIL\_HOST}{17}{subsubsection.6.10.2.8}%
+\contentsline {subsubsection}{\numberline {6.10.2.9}EMAIL\_HOST\_PASSWORD}{17}{subsubsection.6.10.2.9}%
+\contentsline {subsubsection}{\numberline {6.10.2.10}EMAIL\_HOST\_USER}{17}{subsubsection.6.10.2.10}%
+\contentsline {subsubsection}{\numberline {6.10.2.11}EMAIL\_PORT}{17}{subsubsection.6.10.2.11}%
+\contentsline {subsubsection}{\numberline {6.10.2.12}EMAIL\_USE\_SSL}{18}{subsubsection.6.10.2.12}%
+\contentsline {subsubsection}{\numberline {6.10.2.13}INSTALLED\_APPS}{18}{subsubsection.6.10.2.13}%
+\contentsline {subsubsection}{\numberline {6.10.2.14}LANGUAGE\_CODE}{18}{subsubsection.6.10.2.14}%
+\contentsline {subsubsection}{\numberline {6.10.2.15}MEDIA\_ROOT}{18}{subsubsection.6.10.2.15}%
+\contentsline {subsubsection}{\numberline {6.10.2.16}MEDIA\_URL}{18}{subsubsection.6.10.2.16}%
+\contentsline {subsubsection}{\numberline {6.10.2.17}MIDDLEWARE}{18}{subsubsection.6.10.2.17}%
+\contentsline {subsubsection}{\numberline {6.10.2.18}REST\_FRAMEWORK}{18}{subsubsection.6.10.2.18}%
+\contentsline {subsubsection}{\numberline {6.10.2.19}ROOT\_URLCONF}{19}{subsubsection.6.10.2.19}%
+\contentsline {subsubsection}{\numberline {6.10.2.20}SECRET\_KEY}{19}{subsubsection.6.10.2.20}%
+\contentsline {subsubsection}{\numberline {6.10.2.21}SERVER\_EMAIL}{19}{subsubsection.6.10.2.21}%
+\contentsline {subsubsection}{\numberline {6.10.2.22}STATIC\_URL}{19}{subsubsection.6.10.2.22}%
+\contentsline {subsubsection}{\numberline {6.10.2.23}TEMPLATES}{19}{subsubsection.6.10.2.23}%
+\contentsline {subsubsection}{\numberline {6.10.2.24}TIME\_ZONE}{19}{subsubsection.6.10.2.24}%
+\contentsline {subsubsection}{\numberline {6.10.2.25}USE\_I18N}{19}{subsubsection.6.10.2.25}%
+\contentsline {subsubsection}{\numberline {6.10.2.26}USE\_TZ}{19}{subsubsection.6.10.2.26}%
+\contentsline {subsubsection}{\numberline {6.10.2.27}WSGI\_APPLICATION}{20}{subsubsection.6.10.2.27}%
+\contentsline {section}{\numberline {6.11}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}project.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}urls Namespace Reference}{20}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Variable Documentation}{20}{subsection.6.11.1}%
+\contentsline {subsubsection}{\numberline {6.11.1.1}document\_root}{20}{subsubsection.6.11.1.1}%
+\contentsline {subsubsection}{\numberline {6.11.1.2}MEDIA\_URL}{20}{subsubsection.6.11.1.2}%
+\contentsline {subsubsection}{\numberline {6.11.1.3}urlpatterns}{20}{subsubsection.6.11.1.3}%
+\contentsline {section}{\numberline {6.12}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}project.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}wsgi Namespace Reference}{20}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Detailed Description}{20}{subsection.6.12.1}%
+\contentsline {subsection}{\numberline {6.12.2}Variable Documentation}{21}{subsection.6.12.2}%
+\contentsline {subsubsection}{\numberline {6.12.2.1}application}{21}{subsubsection.6.12.2.1}%
+\contentsline {section}{\numberline {6.13}manage Namespace Reference}{21}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}Detailed Description}{21}{subsection.6.13.1}%
+\contentsline {subsection}{\numberline {6.13.2}Function Documentation}{21}{subsection.6.13.2}%
+\contentsline {subsubsection}{\numberline {6.13.2.1}main()}{21}{subsubsection.6.13.2.1}%
+\contentsline {chapter}{\numberline {7}Class Documentation}{23}{chapter.7}%
+\contentsline {section}{\numberline {7.1}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ABTest Class Reference}{23}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Member Function Documentation}{24}{subsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.1.1}\_\_str\_\_()}{24}{subsubsection.7.1.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Member Data Documentation}{24}{subsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.2.1}audience\_segment}{24}{subsubsection.7.1.2.1}%
+\contentsline {subsubsection}{\numberline {7.1.2.2}banners}{24}{subsubsection.7.1.2.2}%
+\contentsline {subsubsection}{\numberline {7.1.2.3}campaign}{24}{subsubsection.7.1.2.3}%
+\contentsline {subsubsection}{\numberline {7.1.2.4}created\_at}{24}{subsubsection.7.1.2.4}%
+\contentsline {subsubsection}{\numberline {7.1.2.5}end\_date}{24}{subsubsection.7.1.2.5}%
+\contentsline {subsubsection}{\numberline {7.1.2.6}is\_active}{25}{subsubsection.7.1.2.6}%
+\contentsline {subsubsection}{\numberline {7.1.2.7}name}{25}{subsubsection.7.1.2.7}%
+\contentsline {subsubsection}{\numberline {7.1.2.8}start\_date}{25}{subsubsection.7.1.2.8}%
+\contentsline {section}{\numberline {7.2}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ABTest\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{25}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Member Data Documentation}{26}{subsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.1.1}filter\_horizontal}{26}{subsubsection.7.2.1.1}%
+\contentsline {subsubsection}{\numberline {7.2.1.2}list\_display}{26}{subsubsection.7.2.1.2}%
+\contentsline {subsubsection}{\numberline {7.2.1.3}list\_filter}{26}{subsubsection.7.2.1.3}%
+\contentsline {subsubsection}{\numberline {7.2.1.4}search\_fields}{26}{subsubsection.7.2.1.4}%
+\contentsline {section}{\numberline {7.3}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner Class Reference}{26}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Member Function Documentation}{27}{subsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.1.1}\_\_str\_\_()}{27}{subsubsection.7.3.1.1}%
+\contentsline {subsubsection}{\numberline {7.3.1.2}clean()}{27}{subsubsection.7.3.1.2}%
+\contentsline {subsubsection}{\numberline {7.3.1.3}save()}{28}{subsubsection.7.3.1.3}%
+\contentsline {subsection}{\numberline {7.3.2}Member Data Documentation}{28}{subsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.2.1}campaign}{28}{subsubsection.7.3.2.1}%
+\contentsline {subsubsection}{\numberline {7.3.2.2}created\_at}{28}{subsubsection.7.3.2.2}%
+\contentsline {subsubsection}{\numberline {7.3.2.3}is\_active}{28}{subsubsection.7.3.2.3}%
+\contentsline {subsubsection}{\numberline {7.3.2.4}media\_file}{28}{subsubsection.7.3.2.4}%
+\contentsline {subsubsection}{\numberline {7.3.2.5}media\_type}{28}{subsubsection.7.3.2.5}%
+\contentsline {subsubsection}{\numberline {7.3.2.6}MEDIA\_TYPE\_CHOICES}{28}{subsubsection.7.3.2.6}%
+\contentsline {subsubsection}{\numberline {7.3.2.7}title}{29}{subsubsection.7.3.2.7}%
+\contentsline {section}{\numberline {7.4}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{29}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Member Data Documentation}{30}{subsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.1.1}list\_display}{30}{subsubsection.7.4.1.1}%
+\contentsline {subsubsection}{\numberline {7.4.1.2}list\_filter}{30}{subsubsection.7.4.1.2}%
+\contentsline {subsubsection}{\numberline {7.4.1.3}readonly\_fields}{30}{subsubsection.7.4.1.3}%
+\contentsline {subsubsection}{\numberline {7.4.1.4}search\_fields}{30}{subsubsection.7.4.1.4}%
+\contentsline {section}{\numberline {7.5}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}generator.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Generator Class Reference}{30}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Detailed Description}{30}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Member Function Documentation}{30}{subsection.7.5.2}%
+\contentsline {subsubsection}{\numberline {7.5.2.1}export\_for\_godot()}{30}{subsubsection.7.5.2.1}%
+\contentsline {subsubsection}{\numberline {7.5.2.2}generate\_html()}{31}{subsubsection.7.5.2.2}%
+\contentsline {subsubsection}{\numberline {7.5.2.3}parse\_game\_file()}{31}{subsubsection.7.5.2.3}%
+\contentsline {section}{\numberline {7.6}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}services.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Service Class Reference}{31}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Member Function Documentation}{31}{subsection.7.6.1}%
+\contentsline {subsubsection}{\numberline {7.6.1.1}check\_budget\_and\_notify()}{31}{subsubsection.7.6.1.1}%
+\contentsline {subsubsection}{\numberline {7.6.1.2}get\_active\_banners()}{31}{subsubsection.7.6.1.2}%
+\contentsline {section}{\numberline {7.7}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Template Class Reference}{32}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Detailed Description}{33}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}Member Function Documentation}{33}{subsection.7.7.2}%
+\contentsline {subsubsection}{\numberline {7.7.2.1}\_\_str\_\_()}{33}{subsubsection.7.7.2.1}%
+\contentsline {subsection}{\numberline {7.7.3}Member Data Documentation}{33}{subsection.7.7.3}%
+\contentsline {subsubsection}{\numberline {7.7.3.1}created\_at}{33}{subsubsection.7.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.7.3.2}css\_styles}{33}{subsubsection.7.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.7.3.3}height}{33}{subsubsection.7.7.3.3}%
+\contentsline {subsubsection}{\numberline {7.7.3.4}html\_template}{33}{subsubsection.7.7.3.4}%
+\contentsline {subsubsection}{\numberline {7.7.3.5}javascript}{33}{subsubsection.7.7.3.5}%
+\contentsline {subsubsection}{\numberline {7.7.3.6}name}{34}{subsubsection.7.7.3.6}%
+\contentsline {subsubsection}{\numberline {7.7.3.7}preview\_image}{34}{subsubsection.7.7.3.7}%
+\contentsline {subsubsection}{\numberline {7.7.3.8}template\_type}{34}{subsubsection.7.7.3.8}%
+\contentsline {subsubsection}{\numberline {7.7.3.9}TEMPLATE\_TYPES}{34}{subsubsection.7.7.3.9}%
+\contentsline {subsubsection}{\numberline {7.7.3.10}width}{34}{subsubsection.7.7.3.10}%
+\contentsline {section}{\numberline {7.8}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Template\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{34}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Member Data Documentation}{35}{subsection.7.8.1}%
+\contentsline {subsubsection}{\numberline {7.8.1.1}list\_display}{35}{subsubsection.7.8.1.1}%
+\contentsline {subsubsection}{\numberline {7.8.1.2}list\_filter}{35}{subsubsection.7.8.1.2}%
+\contentsline {subsubsection}{\numberline {7.8.1.3}search\_fields}{35}{subsubsection.7.8.1.3}%
+\contentsline {section}{\numberline {7.9}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Campaign Class Reference}{36}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}Member Function Documentation}{37}{subsection.7.9.1}%
+\contentsline {subsubsection}{\numberline {7.9.1.1}\_\_str\_\_()}{37}{subsubsection.7.9.1.1}%
+\contentsline {subsubsection}{\numberline {7.9.1.2}activate()}{37}{subsubsection.7.9.1.2}%
+\contentsline {subsubsection}{\numberline {7.9.1.3}pause()}{37}{subsubsection.7.9.1.3}%
+\contentsline {subsubsection}{\numberline {7.9.1.4}status\_color()}{37}{subsubsection.7.9.1.4}%
+\contentsline {subsubsection}{\numberline {7.9.1.5}stop()}{37}{subsubsection.7.9.1.5}%
+\contentsline {subsection}{\numberline {7.9.2}Member Data Documentation}{38}{subsection.7.9.2}%
+\contentsline {subsubsection}{\numberline {7.9.2.1}budget}{38}{subsubsection.7.9.2.1}%
+\contentsline {subsubsection}{\numberline {7.9.2.2}created\_at}{38}{subsubsection.7.9.2.2}%
+\contentsline {subsubsection}{\numberline {7.9.2.3}created\_by}{38}{subsubsection.7.9.2.3}%
+\contentsline {subsubsection}{\numberline {7.9.2.4}end\_date}{38}{subsubsection.7.9.2.4}%
+\contentsline {subsubsection}{\numberline {7.9.2.5}is\_ab\_test}{38}{subsubsection.7.9.2.5}%
+\contentsline {subsubsection}{\numberline {7.9.2.6}name}{38}{subsubsection.7.9.2.6}%
+\contentsline {subsubsection}{\numberline {7.9.2.7}PLATFORM\_CHOICES}{38}{subsubsection.7.9.2.7}%
+\contentsline {subsubsection}{\numberline {7.9.2.8}start\_date}{39}{subsubsection.7.9.2.8}%
+\contentsline {subsubsection}{\numberline {7.9.2.9}status}{39}{subsubsection.7.9.2.9}%
+\contentsline {subsubsection}{\numberline {7.9.2.10}STATUS\_CHOICES}{39}{subsubsection.7.9.2.10}%
+\contentsline {subsubsection}{\numberline {7.9.2.11}target\_game\_version}{39}{subsubsection.7.9.2.11}%
+\contentsline {subsubsection}{\numberline {7.9.2.12}target\_geolocation}{39}{subsubsection.7.9.2.12}%
+\contentsline {subsubsection}{\numberline {7.9.2.13}target\_platform}{39}{subsubsection.7.9.2.13}%
+\contentsline {section}{\numberline {7.10}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Campaign\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{40}{section.7.10}%
+\contentsline {subsection}{\numberline {7.10.1}Member Function Documentation}{41}{subsection.7.10.1}%
+\contentsline {subsubsection}{\numberline {7.10.1.1}activate\_campaigns()}{41}{subsubsection.7.10.1.1}%
+\contentsline {subsubsection}{\numberline {7.10.1.2}pause\_campaigns()}{41}{subsubsection.7.10.1.2}%
+\contentsline {subsubsection}{\numberline {7.10.1.3}stop\_campaigns()}{41}{subsubsection.7.10.1.3}%
+\contentsline {subsection}{\numberline {7.10.2}Member Data Documentation}{41}{subsection.7.10.2}%
+\contentsline {subsubsection}{\numberline {7.10.2.1}actions}{41}{subsubsection.7.10.2.1}%
+\contentsline {subsubsection}{\numberline {7.10.2.2}fieldsets}{41}{subsubsection.7.10.2.2}%
+\contentsline {subsubsection}{\numberline {7.10.2.3}list\_display}{41}{subsubsection.7.10.2.3}%
+\contentsline {subsubsection}{\numberline {7.10.2.4}list\_filter}{42}{subsubsection.7.10.2.4}%
+\contentsline {subsubsection}{\numberline {7.10.2.5}readonly\_fields}{42}{subsubsection.7.10.2.5}%
+\contentsline {subsubsection}{\numberline {7.10.2.6}search\_fields}{42}{subsubsection.7.10.2.6}%
+\contentsline {subsubsection}{\numberline {7.10.2.7}short\_description}{42}{subsubsection.7.10.2.7}%
+\contentsline {section}{\numberline {7.11}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Campaign\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Statistics Class Reference}{42}{section.7.11}%
+\contentsline {subsection}{\numberline {7.11.1}Member Function Documentation}{43}{subsection.7.11.1}%
+\contentsline {subsubsection}{\numberline {7.11.1.1}\_\_str\_\_()}{43}{subsubsection.7.11.1.1}%
+\contentsline {subsubsection}{\numberline {7.11.1.2}ctr()}{43}{subsubsection.7.11.1.2}%
+\contentsline {subsection}{\numberline {7.11.2}Member Data Documentation}{44}{subsection.7.11.2}%
+\contentsline {subsubsection}{\numberline {7.11.2.1}campaign}{44}{subsubsection.7.11.2.1}%
+\contentsline {subsubsection}{\numberline {7.11.2.2}clicks}{44}{subsubsection.7.11.2.2}%
+\contentsline {subsubsection}{\numberline {7.11.2.3}conversions}{44}{subsubsection.7.11.2.3}%
+\contentsline {subsubsection}{\numberline {7.11.2.4}date}{44}{subsubsection.7.11.2.4}%
+\contentsline {subsubsection}{\numberline {7.11.2.5}impressions}{44}{subsubsection.7.11.2.5}%
+\contentsline {section}{\numberline {7.12}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Campaign\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Statistics\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{44}{section.7.12}%
+\contentsline {subsection}{\numberline {7.12.1}Member Data Documentation}{45}{subsection.7.12.1}%
+\contentsline {subsubsection}{\numberline {7.12.1.1}list\_display}{45}{subsubsection.7.12.1.1}%
+\contentsline {subsubsection}{\numberline {7.12.1.2}list\_filter}{45}{subsubsection.7.12.1.2}%
+\contentsline {subsubsection}{\numberline {7.12.1.3}readonly\_fields}{45}{subsubsection.7.12.1.3}%
+\contentsline {subsubsection}{\numberline {7.12.1.4}search\_fields}{45}{subsubsection.7.12.1.4}%
+\contentsline {section}{\numberline {7.13}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Custom\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{46}{section.7.13}%
+\contentsline {subsection}{\numberline {7.13.1}Member Data Documentation}{46}{subsection.7.13.1}%
+\contentsline {subsubsection}{\numberline {7.13.1.1}inlines}{46}{subsubsection.7.13.1.1}%
+\contentsline {section}{\numberline {7.14}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data Class Reference}{47}{section.7.14}%
+\contentsline {subsection}{\numberline {7.14.1}Detailed Description}{48}{subsection.7.14.1}%
+\contentsline {subsection}{\numberline {7.14.2}Member Function Documentation}{48}{subsection.7.14.2}%
+\contentsline {subsubsection}{\numberline {7.14.2.1}\_\_str\_\_()}{48}{subsubsection.7.14.2.1}%
+\contentsline {subsection}{\numberline {7.14.3}Member Data Documentation}{48}{subsection.7.14.3}%
+\contentsline {subsubsection}{\numberline {7.14.3.1}achievements}{48}{subsubsection.7.14.3.1}%
+\contentsline {subsubsection}{\numberline {7.14.3.2}data\_file}{48}{subsubsection.7.14.3.2}%
+\contentsline {subsubsection}{\numberline {7.14.3.3}game\_name}{48}{subsubsection.7.14.3.3}%
+\contentsline {subsubsection}{\numberline {7.14.3.4}game\_type}{48}{subsubsection.7.14.3.4}%
+\contentsline {subsubsection}{\numberline {7.14.3.5}GAME\_TYPES}{48}{subsubsection.7.14.3.5}%
+\contentsline {subsubsection}{\numberline {7.14.3.6}imported\_at}{49}{subsubsection.7.14.3.6}%
+\contentsline {subsubsection}{\numberline {7.14.3.7}level}{49}{subsubsection.7.14.3.7}%
+\contentsline {subsubsection}{\numberline {7.14.3.8}play\_time}{49}{subsubsection.7.14.3.8}%
+\contentsline {subsubsection}{\numberline {7.14.3.9}player\_name}{49}{subsubsection.7.14.3.9}%
+\contentsline {subsubsection}{\numberline {7.14.3.10}score}{49}{subsubsection.7.14.3.10}%
+\contentsline {section}{\numberline {7.15}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{49}{section.7.15}%
+\contentsline {subsection}{\numberline {7.15.1}Member Data Documentation}{50}{subsection.7.15.1}%
+\contentsline {subsubsection}{\numberline {7.15.1.1}list\_display}{50}{subsubsection.7.15.1.1}%
+\contentsline {subsubsection}{\numberline {7.15.1.2}list\_filter}{50}{subsubsection.7.15.1.2}%
+\contentsline {subsubsection}{\numberline {7.15.1.3}search\_fields}{50}{subsubsection.7.15.1.3}%
+\contentsline {section}{\numberline {7.16}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Generated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner Class Reference}{51}{section.7.16}%
+\contentsline {subsection}{\numberline {7.16.1}Detailed Description}{52}{subsection.7.16.1}%
+\contentsline {subsection}{\numberline {7.16.2}Member Function Documentation}{52}{subsection.7.16.2}%
+\contentsline {subsubsection}{\numberline {7.16.2.1}\_\_str\_\_()}{52}{subsubsection.7.16.2.1}%
+\contentsline {subsection}{\numberline {7.16.3}Member Data Documentation}{52}{subsection.7.16.3}%
+\contentsline {subsubsection}{\numberline {7.16.3.1}created\_at}{52}{subsubsection.7.16.3.1}%
+\contentsline {subsubsection}{\numberline {7.16.3.2}game\_data}{52}{subsubsection.7.16.3.2}%
+\contentsline {subsubsection}{\numberline {7.16.3.3}godot\_export}{52}{subsubsection.7.16.3.3}%
+\contentsline {subsubsection}{\numberline {7.16.3.4}html\_content}{52}{subsubsection.7.16.3.4}%
+\contentsline {subsubsection}{\numberline {7.16.3.5}name}{52}{subsubsection.7.16.3.5}%
+\contentsline {subsubsection}{\numberline {7.16.3.6}preview\_url}{52}{subsubsection.7.16.3.6}%
+\contentsline {subsubsection}{\numberline {7.16.3.7}template}{53}{subsubsection.7.16.3.7}%
+\contentsline {section}{\numberline {7.17}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Generated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{53}{section.7.17}%
+\contentsline {subsection}{\numberline {7.17.1}Member Data Documentation}{54}{subsection.7.17.1}%
+\contentsline {subsubsection}{\numberline {7.17.1.1}list\_display}{54}{subsubsection.7.17.1.1}%
+\contentsline {subsubsection}{\numberline {7.17.1.2}list\_filter}{54}{subsubsection.7.17.1.2}%
+\contentsline {subsubsection}{\numberline {7.17.1.3}readonly\_fields}{54}{subsubsection.7.17.1.3}%
+\contentsline {subsubsection}{\numberline {7.17.1.4}search\_fields}{54}{subsubsection.7.17.1.4}%
+\contentsline {section}{\numberline {7.18}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Template.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Meta Class Reference}{54}{section.7.18}%
+\contentsline {subsection}{\numberline {7.18.1}Member Data Documentation}{54}{subsection.7.18.1}%
+\contentsline {subsubsection}{\numberline {7.18.1.1}verbose\_name}{54}{subsubsection.7.18.1.1}%
+\contentsline {subsubsection}{\numberline {7.18.1.2}verbose\_name\_plural}{54}{subsubsection.7.18.1.2}%
+\contentsline {section}{\numberline {7.19}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Campaign\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Statistics.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Meta Class Reference}{55}{section.7.19}%
+\contentsline {subsection}{\numberline {7.19.1}Member Data Documentation}{55}{subsection.7.19.1}%
+\contentsline {subsubsection}{\numberline {7.19.1.1}verbose\_name}{55}{subsubsection.7.19.1.1}%
+\contentsline {subsubsection}{\numberline {7.19.1.2}verbose\_name\_plural}{55}{subsubsection.7.19.1.2}%
+\contentsline {section}{\numberline {7.20}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Meta Class Reference}{55}{section.7.20}%
+\contentsline {subsection}{\numberline {7.20.1}Member Data Documentation}{55}{subsection.7.20.1}%
+\contentsline {subsubsection}{\numberline {7.20.1.1}verbose\_name}{55}{subsubsection.7.20.1.1}%
+\contentsline {subsubsection}{\numberline {7.20.1.2}verbose\_name\_plural}{55}{subsubsection.7.20.1.2}%
+\contentsline {section}{\numberline {7.21}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Generated\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Meta Class Reference}{56}{section.7.21}%
+\contentsline {subsection}{\numberline {7.21.1}Member Data Documentation}{56}{subsection.7.21.1}%
+\contentsline {subsubsection}{\numberline {7.21.1.1}verbose\_name}{56}{subsubsection.7.21.1.1}%
+\contentsline {subsubsection}{\numberline {7.21.1.2}verbose\_name\_plural}{56}{subsubsection.7.21.1.2}%
+\contentsline {section}{\numberline {7.22}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}services.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Notification\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Service Class Reference}{56}{section.7.22}%
+\contentsline {subsection}{\numberline {7.22.1}Detailed Description}{56}{subsection.7.22.1}%
+\contentsline {subsection}{\numberline {7.22.2}Member Function Documentation}{56}{subsection.7.22.2}%
+\contentsline {subsubsection}{\numberline {7.22.2.1}send\_budget\_notification()}{56}{subsubsection.7.22.2.1}%
+\contentsline {section}{\numberline {7.23}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}services.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Statistics\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Service Class Reference}{57}{section.7.23}%
+\contentsline {subsection}{\numberline {7.23.1}Detailed Description}{57}{subsection.7.23.1}%
+\contentsline {subsection}{\numberline {7.23.2}Member Function Documentation}{57}{subsection.7.23.2}%
+\contentsline {subsubsection}{\numberline {7.23.2.1}calculate\_ctr()}{57}{subsubsection.7.23.2.1}%
+\contentsline {subsubsection}{\numberline {7.23.2.2}get\_campaign\_stats()}{57}{subsubsection.7.23.2.2}%
+\contentsline {section}{\numberline {7.24}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}APIAnd\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Services Class Reference}{58}{section.7.24}%
+\contentsline {subsection}{\numberline {7.24.1}Detailed Description}{59}{subsection.7.24.1}%
+\contentsline {subsection}{\numberline {7.24.2}Member Function Documentation}{59}{subsection.7.24.2}%
+\contentsline {subsubsection}{\numberline {7.24.2.1}setUp()}{59}{subsubsection.7.24.2.1}%
+\contentsline {subsubsection}{\numberline {7.24.2.2}test\_api\_endpoint()}{59}{subsubsection.7.24.2.2}%
+\contentsline {subsubsection}{\numberline {7.24.2.3}test\_home\_page()}{59}{subsubsection.7.24.2.3}%
+\contentsline {subsubsection}{\numberline {7.24.2.4}test\_services()}{59}{subsubsection.7.24.2.4}%
+\contentsline {subsection}{\numberline {7.24.3}Member Data Documentation}{59}{subsection.7.24.3}%
+\contentsline {subsubsection}{\numberline {7.24.3.1}banner}{59}{subsubsection.7.24.3.1}%
+\contentsline {subsubsection}{\numberline {7.24.3.2}campaign}{59}{subsubsection.7.24.3.2}%
+\contentsline {subsubsection}{\numberline {7.24.3.3}client}{60}{subsubsection.7.24.3.3}%
+\contentsline {subsubsection}{\numberline {7.24.3.4}user}{60}{subsubsection.7.24.3.4}%
+\contentsline {section}{\numberline {7.25}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Generator Class Reference}{60}{section.7.25}%
+\contentsline {subsection}{\numberline {7.25.1}Detailed Description}{61}{subsection.7.25.1}%
+\contentsline {subsection}{\numberline {7.25.2}Member Function Documentation}{61}{subsection.7.25.2}%
+\contentsline {subsubsection}{\numberline {7.25.2.1}setUp()}{61}{subsubsection.7.25.2.1}%
+\contentsline {subsubsection}{\numberline {7.25.2.2}test\_banner\_generation()}{61}{subsubsection.7.25.2.2}%
+\contentsline {subsubsection}{\numberline {7.25.2.3}test\_game\_file\_parsing()}{61}{subsubsection.7.25.2.3}%
+\contentsline {subsection}{\numberline {7.25.3}Member Data Documentation}{61}{subsection.7.25.3}%
+\contentsline {subsubsection}{\numberline {7.25.3.1}game\_data}{61}{subsubsection.7.25.3.1}%
+\contentsline {subsubsection}{\numberline {7.25.3.2}template}{62}{subsubsection.7.25.3.2}%
+\contentsline {section}{\numberline {7.26}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model Class Reference}{62}{section.7.26}%
+\contentsline {subsection}{\numberline {7.26.1}Detailed Description}{63}{subsection.7.26.1}%
+\contentsline {subsection}{\numberline {7.26.2}Member Function Documentation}{63}{subsection.7.26.2}%
+\contentsline {subsubsection}{\numberline {7.26.2.1}setUp()}{63}{subsubsection.7.26.2.1}%
+\contentsline {subsubsection}{\numberline {7.26.2.2}test\_banner\_creation()}{63}{subsubsection.7.26.2.2}%
+\contentsline {subsection}{\numberline {7.26.3}Member Data Documentation}{63}{subsection.7.26.3}%
+\contentsline {subsubsection}{\numberline {7.26.3.1}campaign}{63}{subsubsection.7.26.3.1}%
+\contentsline {subsubsection}{\numberline {7.26.3.2}user}{63}{subsubsection.7.26.3.2}%
+\contentsline {section}{\numberline {7.27}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Template\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model Class Reference}{64}{section.7.27}%
+\contentsline {subsection}{\numberline {7.27.1}Detailed Description}{64}{subsection.7.27.1}%
+\contentsline {subsection}{\numberline {7.27.2}Member Function Documentation}{64}{subsection.7.27.2}%
+\contentsline {subsubsection}{\numberline {7.27.2.1}test\_template\_creation()}{64}{subsubsection.7.27.2.1}%
+\contentsline {section}{\numberline {7.28}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Campaign\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model Class Reference}{65}{section.7.28}%
+\contentsline {subsection}{\numberline {7.28.1}Detailed Description}{65}{subsection.7.28.1}%
+\contentsline {subsection}{\numberline {7.28.2}Member Function Documentation}{66}{subsection.7.28.2}%
+\contentsline {subsubsection}{\numberline {7.28.2.1}setUp()}{66}{subsubsection.7.28.2.1}%
+\contentsline {subsubsection}{\numberline {7.28.2.2}test\_campaign\_creation\_and\_methods()}{66}{subsubsection.7.28.2.2}%
+\contentsline {subsection}{\numberline {7.28.3}Member Data Documentation}{66}{subsection.7.28.3}%
+\contentsline {subsubsection}{\numberline {7.28.3.1}user}{66}{subsubsection.7.28.3.1}%
+\contentsline {section}{\numberline {7.29}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Game\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Model Class Reference}{66}{section.7.29}%
+\contentsline {subsection}{\numberline {7.29.1}Detailed Description}{67}{subsection.7.29.1}%
+\contentsline {subsection}{\numberline {7.29.2}Member Function Documentation}{67}{subsection.7.29.2}%
+\contentsline {subsubsection}{\numberline {7.29.2.1}test\_game\_data\_creation()}{67}{subsubsection.7.29.2.1}%
+\contentsline {section}{\numberline {7.30}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Negative\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Scenarios Class Reference}{68}{section.7.30}%
+\contentsline {subsection}{\numberline {7.30.1}Detailed Description}{68}{subsection.7.30.1}%
+\contentsline {subsection}{\numberline {7.30.2}Member Function Documentation}{69}{subsection.7.30.2}%
+\contentsline {subsubsection}{\numberline {7.30.2.1}setUp()}{69}{subsubsection.7.30.2.1}%
+\contentsline {subsubsection}{\numberline {7.30.2.2}test\_negative\_cases()}{69}{subsubsection.7.30.2.2}%
+\contentsline {subsection}{\numberline {7.30.3}Member Data Documentation}{69}{subsection.7.30.3}%
+\contentsline {subsubsection}{\numberline {7.30.3.1}user}{69}{subsubsection.7.30.3.1}%
+\contentsline {section}{\numberline {7.31}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}models.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Profile Class Reference}{69}{section.7.31}%
+\contentsline {subsection}{\numberline {7.31.1}Member Function Documentation}{70}{subsection.7.31.1}%
+\contentsline {subsubsection}{\numberline {7.31.1.1}\_\_str\_\_()}{70}{subsubsection.7.31.1.1}%
+\contentsline {subsection}{\numberline {7.31.2}Member Data Documentation}{70}{subsection.7.31.2}%
+\contentsline {subsubsection}{\numberline {7.31.2.1}created\_at}{70}{subsubsection.7.31.2.1}%
+\contentsline {subsubsection}{\numberline {7.31.2.2}phone}{70}{subsubsection.7.31.2.2}%
+\contentsline {subsubsection}{\numberline {7.31.2.3}role}{71}{subsubsection.7.31.2.3}%
+\contentsline {subsubsection}{\numberline {7.31.2.4}ROLE\_CHOICES}{71}{subsubsection.7.31.2.4}%
+\contentsline {subsubsection}{\numberline {7.31.2.5}user}{71}{subsubsection.7.31.2.5}%
+\contentsline {section}{\numberline {7.32}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Profile\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{71}{section.7.32}%
+\contentsline {subsection}{\numberline {7.32.1}Member Data Documentation}{72}{subsection.7.32.1}%
+\contentsline {subsubsection}{\numberline {7.32.1.1}list\_display}{72}{subsubsection.7.32.1.1}%
+\contentsline {subsubsection}{\numberline {7.32.1.2}list\_filter}{72}{subsubsection.7.32.1.2}%
+\contentsline {subsubsection}{\numberline {7.32.1.3}search\_fields}{72}{subsubsection.7.32.1.3}%
+\contentsline {section}{\numberline {7.33}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}admin.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Profile\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inline Class Reference}{73}{section.7.33}%
+\contentsline {subsection}{\numberline {7.33.1}Member Data Documentation}{73}{subsection.7.33.1}%
+\contentsline {subsubsection}{\numberline {7.33.1.1}can\_delete}{73}{subsubsection.7.33.1.1}%
+\contentsline {subsubsection}{\numberline {7.33.1.2}model}{73}{subsubsection.7.33.1.2}%
+\contentsline {chapter}{\numberline {8}File Documentation}{75}{chapter.8}%
+\contentsline {section}{\numberline {8.1}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app/admin.py File Reference}{75}{section.8.1}%
+\contentsline {section}{\numberline {8.2}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app/banner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}generator.py File Reference}{75}{section.8.2}%
+\contentsline {section}{\numberline {8.3}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app/models.py File Reference}{76}{section.8.3}%
+\contentsline {section}{\numberline {8.4}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app/services.py File Reference}{76}{section.8.4}%
+\contentsline {section}{\numberline {8.5}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app/tests.py File Reference}{76}{section.8.5}%
+\contentsline {section}{\numberline {8.6}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app/views.py File Reference}{77}{section.8.6}%
+\contentsline {section}{\numberline {8.7}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}init\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}.py File Reference}{77}{section.8.7}%
+\contentsline {section}{\numberline {8.8}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}project/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}init\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}.py File Reference}{77}{section.8.8}%
+\contentsline {section}{\numberline {8.9}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}project/settings.py File Reference}{77}{section.8.9}%
+\contentsline {section}{\numberline {8.10}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app/urls.py File Reference}{78}{section.8.10}%
+\contentsline {section}{\numberline {8.11}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}project/urls.py File Reference}{78}{section.8.11}%
+\contentsline {section}{\numberline {8.12}bannerflow\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}project/wsgi.py File Reference}{79}{section.8.12}%
+\contentsline {section}{\numberline {8.13}manage.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}py File Reference}{79}{section.8.13}%
+\contentsline {section}{\numberline {8.14}README.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{79}{section.8.14}%

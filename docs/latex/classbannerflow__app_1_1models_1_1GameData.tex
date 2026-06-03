@@ -1,0 +1,147 @@
+\doxysection{bannerflow\+\_\+app.\+models.\+Game\+Data Class Reference}
+\hypertarget{classbannerflow__app_1_1models_1_1GameData}{}\label{classbannerflow__app_1_1models_1_1GameData}\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+
+
+Inheritance diagram for bannerflow\+\_\+app.\+models.\+Game\+Data\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classbannerflow__app_1_1models_1_1GameData__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for bannerflow\+\_\+app.\+models.\+Game\+Data\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classbannerflow__app_1_1models_1_1GameData__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_1_1Meta}{Meta}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_adfceb319c1d77f09a13bc2f93ffccc2c}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_ae1891198bdb0b6d74cb1c61d588c481a}{GAME\+\_\+\+TYPES}}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_a6b419c645dd92620845ef7ce8e40976c}{game\+\_\+name}} = models.\+Char\+Field(max\+\_\+length=100, verbose\+\_\+name="{}Nazvanie igry"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_ac08b0868cf148bbb4492c56fadb71051}{game\+\_\+type}} = models.\+Char\+Field(max\+\_\+length=20, choices=\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_ae1891198bdb0b6d74cb1c61d588c481a}{GAME\+\_\+\+TYPES}}, default=\textquotesingle{}custom\textquotesingle{}, verbose\+\_\+name="{}Tip igry"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_aab18b8a76bcf74ed8ddb5fc026950363}{player\+\_\+name}} = models.\+Char\+Field(max\+\_\+length=100, verbose\+\_\+name="{}Imya igroka"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_ae80a9670602c181416c36d772f6e433d}{score}} = models.\+Integer\+Field(default=0, verbose\+\_\+name="{}Schet"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_a9dd6166a0fe43e10812ee5c7e2fcdb7b}{level}} = models.\+Integer\+Field(default=1, verbose\+\_\+name="{}Uroven"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_a80301604e23b0c3f3cea488947aead78}{play\+\_\+time}} = models.\+Integer\+Field(default=0, verbose\+\_\+name="{}Vremya igry (minuty)"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_a145435018d92868db4ae3995fa1c45a4}{achievements}} = models.\+JSONField(default=list, verbose\+\_\+name="{}Dostizheniya"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_a38644e519da3a859be7d2bb12bc9036b}{data\+\_\+file}} = models.\+File\+Field(upload\+\_\+to=\textquotesingle{}game\+\_\+data/\textquotesingle{}, verbose\+\_\+name="{}Fayl dannyh igry"{}, help\+\_\+text="{}JSON ili CSV fayl"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_aeae17646d076069e87c9520364fe5ffe}{imported\+\_\+at}} = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Dannye iz igry dlya generatsii bannerov\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_adfceb319c1d77f09a13bc2f93ffccc2c}\label{classbannerflow__app_1_1models_1_1GameData_adfceb319c1d77f09a13bc2f93ffccc2c} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Game\+Data.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_a145435018d92868db4ae3995fa1c45a4}\label{classbannerflow__app_1_1models_1_1GameData_a145435018d92868db4ae3995fa1c45a4} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!achievements@{achievements}}
+\index{achievements@{achievements}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{achievements}{achievements}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Game\+Data.\+achievements = models.\+JSONField(default=list, verbose\+\_\+name="{}Dostizheniya"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_a38644e519da3a859be7d2bb12bc9036b}\label{classbannerflow__app_1_1models_1_1GameData_a38644e519da3a859be7d2bb12bc9036b} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!data\_file@{data\_file}}
+\index{data\_file@{data\_file}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{data\_file}{data\_file}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Game\+Data.\+data\+\_\+file = models.\+File\+Field(upload\+\_\+to=\textquotesingle{}game\+\_\+data/\textquotesingle{}, verbose\+\_\+name="{}Fayl dannyh igry"{}, help\+\_\+text="{}JSON ili CSV fayl"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_a6b419c645dd92620845ef7ce8e40976c}\label{classbannerflow__app_1_1models_1_1GameData_a6b419c645dd92620845ef7ce8e40976c} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!game\_name@{game\_name}}
+\index{game\_name@{game\_name}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{game\_name}{game\_name}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Game\+Data.\+game\+\_\+name = models.\+Char\+Field(max\+\_\+length=100, verbose\+\_\+name="{}Nazvanie igry"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_ac08b0868cf148bbb4492c56fadb71051}\label{classbannerflow__app_1_1models_1_1GameData_ac08b0868cf148bbb4492c56fadb71051} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!game\_type@{game\_type}}
+\index{game\_type@{game\_type}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{game\_type}{game\_type}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Game\+Data.\+game\+\_\+type = models.\+Char\+Field(max\+\_\+length=20, choices=\mbox{\hyperlink{classbannerflow__app_1_1models_1_1GameData_ae1891198bdb0b6d74cb1c61d588c481a}{GAME\+\_\+\+TYPES}}, default=\textquotesingle{}custom\textquotesingle{}, verbose\+\_\+name="{}Tip igry"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_ae1891198bdb0b6d74cb1c61d588c481a}\label{classbannerflow__app_1_1models_1_1GameData_ae1891198bdb0b6d74cb1c61d588c481a} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!GAME\_TYPES@{GAME\_TYPES}}
+\index{GAME\_TYPES@{GAME\_TYPES}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{GAME\_TYPES}{GAME\_TYPES}}
+{\footnotesize\ttfamily list bannerflow\+\_\+app.\+models.\+Game\+Data.\+GAME\+\_\+\+TYPES\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'platformer'},\ \textcolor{stringliteral}{'Platformer'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'rpg'},\ \textcolor{stringliteral}{'RPG'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'shooter'},\ \textcolor{stringliteral}{'Shuter'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'strategy'},\ \textcolor{stringliteral}{'Strategiya'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'custom'},\ \textcolor{stringliteral}{'Drugaya'}),}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_aeae17646d076069e87c9520364fe5ffe}\label{classbannerflow__app_1_1models_1_1GameData_aeae17646d076069e87c9520364fe5ffe} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!imported\_at@{imported\_at}}
+\index{imported\_at@{imported\_at}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{imported\_at}{imported\_at}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Game\+Data.\+imported\+\_\+at = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_a9dd6166a0fe43e10812ee5c7e2fcdb7b}\label{classbannerflow__app_1_1models_1_1GameData_a9dd6166a0fe43e10812ee5c7e2fcdb7b} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!level@{level}}
+\index{level@{level}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{level}{level}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Game\+Data.\+level = models.\+Integer\+Field(default=1, verbose\+\_\+name="{}Uroven"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_a80301604e23b0c3f3cea488947aead78}\label{classbannerflow__app_1_1models_1_1GameData_a80301604e23b0c3f3cea488947aead78} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!play\_time@{play\_time}}
+\index{play\_time@{play\_time}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{play\_time}{play\_time}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Game\+Data.\+play\+\_\+time = models.\+Integer\+Field(default=0, verbose\+\_\+name="{}Vremya igry (minuty)"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_aab18b8a76bcf74ed8ddb5fc026950363}\label{classbannerflow__app_1_1models_1_1GameData_aab18b8a76bcf74ed8ddb5fc026950363} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!player\_name@{player\_name}}
+\index{player\_name@{player\_name}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{player\_name}{player\_name}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Game\+Data.\+player\+\_\+name = models.\+Char\+Field(max\+\_\+length=100, verbose\+\_\+name="{}Imya igroka"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1GameData_ae80a9670602c181416c36d772f6e433d}\label{classbannerflow__app_1_1models_1_1GameData_ae80a9670602c181416c36d772f6e433d} 
+\index{bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}!score@{score}}
+\index{score@{score}!bannerflow\_app.models.GameData@{bannerflow\_app.models.GameData}}
+\doxysubsubsection{\texorpdfstring{score}{score}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Game\+Data.\+score = models.\+Integer\+Field(default=0, verbose\+\_\+name="{}Schet"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+bannerflow\+\_\+app/\mbox{\hyperlink{models_8py}{models.\+py}}\end{DoxyCompactItemize}

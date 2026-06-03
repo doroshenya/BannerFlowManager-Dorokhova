@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['save_0',['save',['../classbannerflow__app_1_1models_1_1Banner.html#aebfa89f4b027c3387c26c0e0d3b2d8eb',1,'bannerflow_app::models::Banner']]],
-  ['status_5fcolor_1',['status_color',['../classbannerflow__app_1_1models_1_1Campaign.html#acbadf78b52a966aae09ffed3290fb1d9',1,'bannerflow_app::models::Campaign']]],
-  ['stop_2',['stop',['../classbannerflow__app_1_1models_1_1Campaign.html#a2562d5436317965a49de110045ecc817',1,'bannerflow_app::models::Campaign']]],
-  ['stop_5fcampaigns_3',['stop_campaigns',['../classbannerflow__app_1_1admin_1_1CampaignAdmin.html#a7ae56a42db00d4dfe0fb65012ca0918e',1,'bannerflow_app::admin::CampaignAdmin']]]
+  ['parse_5fgame_5ffile_0',['parse_game_file',['../classbannerflow__app_1_1banner__generator_1_1BannerGenerator.html#ab503a2c817d971bc497eed3504c7bd30',1,'bannerflow_app::banner_generator::BannerGenerator']]],
+  ['pause_1',['pause',['../classbannerflow__app_1_1models_1_1Campaign.html#aedd83961dc7f2188735136be39db9460',1,'bannerflow_app::models::Campaign']]],
+  ['pause_5fcampaigns_2',['pause_campaigns',['../classbannerflow__app_1_1admin_1_1CampaignAdmin.html#a7e2e95c906f33190fc0c15575b485de7',1,'bannerflow_app::admin::CampaignAdmin']]]
 ];

@@ -4,31 +4,40 @@ from django.contrib.auth.models import User
 from .models import Campaign, Banner, UserProfile, ABTest, CampaignStatistics
 from .models import BannerTemplate, GameData, GeneratedBanner
 
-# Расширение пользователя
+# ===== Расширение стандартной модели User =====
+
 class UserProfileInline(admin.StackedInline):
+    """Inline-форма для профиля пользователя внутри редактирования User."""
     model = UserProfile
     can_delete = False
 
 class CustomUserAdmin(UserAdmin):
+    """Кастомный администратор пользователя с добавлением профиля."""
     inlines = [UserProfileInline]
 
+# Перерегистрируем модель User с нашим админом
 admin.site.unregister(User)
 admin.site.register(User, CustomUserAdmin)
 
+
 @admin.register(UserProfile)
 class UserProfileAdmin(admin.ModelAdmin):
+    """Админ-панель для модели UserProfile."""
     list_display = ('user', 'role', 'phone', 'created_at')
     list_filter = ('role', 'created_at')
     search_fields = ('user__username', 'user__email', 'phone')
 
+
 @admin.register(Campaign)
 class CampaignAdmin(admin.ModelAdmin):
-    list_display = ('name', 'budget', 'start_date', 'end_date', 'status', 'target_platform', 'created_by', 'created_at')
+    """Админ-панель для рекламных кампаний."""
+    list_display = ('name', 'budget', 'start_date', 'end_date', 'status',
+                    'target_platform', 'created_by', 'created_at')
     list_filter = ('status', 'target_platform', 'is_ab_test', 'created_at')
     search_fields = ('name', 'target_game_version')
     readonly_fields = ('created_at',)
     actions = ['activate_campaigns', 'pause_campaigns', 'stop_campaigns']
-    
+
     fieldsets = (
         ('Основная информация', {
             'fields': ('name', 'budget', 'created_by')
@@ -45,39 +54,48 @@ class CampaignAdmin(admin.ModelAdmin):
     )
 
     def activate_campaigns(self, request, queryset):
+        """Активировать выбранные кампании."""
         for campaign in queryset:
             campaign.activate()
         self.message_user(request, f"{queryset.count()} кампаний активировано")
     activate_campaigns.short_description = "Активировать выбранные кампании"
 
     def pause_campaigns(self, request, queryset):
+        """Приостановить выбранные кампании."""
         for campaign in queryset:
             campaign.pause()
         self.message_user(request, f"{queryset.count()} кампаний приостановлено")
     pause_campaigns.short_description = "Приостановить выбранные кампании"
 
     def stop_campaigns(self, request, queryset):
+        """Остановить выбранные кампании."""
         for campaign in queryset:
             campaign.stop()
         self.message_user(request, f"{queryset.count()} кампаний остановлено")
     stop_campaigns.short_description = "Остановить выбранные кампании"
 
+
 @admin.register(Banner)
 class BannerAdmin(admin.ModelAdmin):
+    """Админ-панель для баннеров."""
     list_display = ('title', 'campaign', 'media_type', 'is_active', 'created_at')
     list_filter = ('media_type', 'is_active', 'created_at')
     search_fields = ('title', 'campaign__name')
     readonly_fields = ('created_at', 'media_type')
 
+
 @admin.register(ABTest)
 class ABTestAdmin(admin.ModelAdmin):
+    """Админ-панель для A/B-тестов."""
     list_display = ('name', 'campaign', 'audience_segment', 'is_active', 'start_date', 'end_date')
     list_filter = ('is_active', 'start_date')
     search_fields = ('name', 'campaign__name', 'audience_segment')
     filter_horizontal = ('banners',)
 
+
 @admin.register(CampaignStatistics)
 class CampaignStatisticsAdmin(admin.ModelAdmin):
+    """Админ-панель для статистики кампаний."""
     list_display = ('campaign', 'date', 'impressions', 'clicks', 'conversions', 'ctr')
     list_filter = ('date', 'campaign')
     readonly_fields = ('ctr',)
@@ -86,18 +104,23 @@ class CampaignStatisticsAdmin(admin.ModelAdmin):
 
 @admin.register(BannerTemplate)
 class BannerTemplateAdmin(admin.ModelAdmin):
+    """Админ-панель для шаблонов баннеров."""
     list_display = ('name', 'template_type', 'width', 'height', 'created_at')
     list_filter = ('template_type', 'created_at')
     search_fields = ('name', 'html_template')
 
+
 @admin.register(GameData)
 class GameDataAdmin(admin.ModelAdmin):
+    """Админ-панель для данных игры."""
     list_display = ('game_name', 'player_name', 'score', 'level', 'game_type', 'imported_at')
     list_filter = ('game_type', 'imported_at')
     search_fields = ('game_name', 'player_name')
 
+
 @admin.register(GeneratedBanner)
 class GeneratedBannerAdmin(admin.ModelAdmin):
+    """Админ-панель для сгенерированных баннеров."""
     list_display = ('name', 'template', 'game_data', 'created_at')
     list_filter = ('created_at', 'template')
     search_fields = ('name', 'html_content')

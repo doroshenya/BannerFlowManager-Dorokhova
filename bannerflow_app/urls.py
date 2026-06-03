@@ -13,8 +13,13 @@ urlpatterns = [
     path('banner/export/<int:banner_id>/', views.export_banner, name='export_banner'),
     path('banner/list/', views.banner_list, name='banner_list'),
     
+    # Загрузка данных
+    path('upload-data/', views.upload_game_data, name='upload_game_data'),
+    
     # API
     path('api/public/banners/', views.api_banners, name='public_banners'),
-    
-    path('upload-data/', views.upload_game_data, name='upload_game_data'),
 ]
+
+# Обработчики ошибок
+handler404 = 'bannerflow_app.views.handler404'
+handler500 = 'bannerflow_app.views.handler500'

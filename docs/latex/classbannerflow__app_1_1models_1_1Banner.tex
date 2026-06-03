@@ -1,0 +1,138 @@
+\doxysection{bannerflow\+\_\+app.\+models.\+Banner Class Reference}
+\hypertarget{classbannerflow__app_1_1models_1_1Banner}{}\label{classbannerflow__app_1_1models_1_1Banner}\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+
+
+Inheritance diagram for bannerflow\+\_\+app.\+models.\+Banner\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classbannerflow__app_1_1models_1_1Banner__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for bannerflow\+\_\+app.\+models.\+Banner\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classbannerflow__app_1_1models_1_1Banner__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_aebfa89f4b027c3387c26c0e0d3b2d8eb}{save}} (self, \texorpdfstring{$\ast$}{*}args, \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}kwargs)
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_ae4a02303d280dced1d745f9eeaa2fb47}{clean}} (self)
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_a7936250eb6615694965bd1d9df844db1}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_ae6410e71c613f97b0bc1c3663340809e}{MEDIA\+\_\+\+TYPE\+\_\+\+CHOICES}}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_a1f9f9e9f18aa350519485c38158c2d93}{campaign}} = models.\+Foreign\+Key(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign}{Campaign}}, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Kampaniya"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_afc98cbfc4a30e91f64a7d42cb612b27d}{title}} = models.\+Char\+Field(max\+\_\+length=255, verbose\+\_\+name="{}Nazvanie bannera"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_abdd5dbc2fe8c81f00e0808e4ac9ab6ee}{media\+\_\+file}}
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_a9c738179907383895a5173244353b7e5}{media\+\_\+type}} = models.\+Char\+Field(max\+\_\+length=10, choices=\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_ae6410e71c613f97b0bc1c3663340809e}{MEDIA\+\_\+\+TYPE\+\_\+\+CHOICES}}, verbose\+\_\+name="{}Tip media"{})
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_a4c77bddf80ea7afe2f7533ede86e8686}{created\+\_\+at}} = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)
+\item 
+\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_ae25f5c62d1bc8f795dda4499c029c0e0}{is\+\_\+active}} = models.\+Boolean\+Field(default=True, verbose\+\_\+name="{}Aktiven"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1Banner_a7936250eb6615694965bd1d9df844db1}\label{classbannerflow__app_1_1models_1_1Banner_a7936250eb6615694965bd1d9df844db1} 
+\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Banner_ae4a02303d280dced1d745f9eeaa2fb47}\label{classbannerflow__app_1_1models_1_1Banner_ae4a02303d280dced1d745f9eeaa2fb47} 
+\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}!clean@{clean}}
+\index{clean@{clean}!bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner.\+clean (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Dopolnitelnaya validatsiya pri sohranenii\end{DoxyVerb}
+ \Hypertarget{classbannerflow__app_1_1models_1_1Banner_aebfa89f4b027c3387c26c0e0d3b2d8eb}\label{classbannerflow__app_1_1models_1_1Banner_aebfa89f4b027c3387c26c0e0d3b2d8eb} 
+\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}!save@{save}}
+\index{save@{save}!bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner.\+save (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{\texorpdfstring{$\ast$}{*}}]{args,  }\item[{\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{kwargs }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classbannerflow__app_1_1models_1_1Banner_a1f9f9e9f18aa350519485c38158c2d93}\label{classbannerflow__app_1_1models_1_1Banner_a1f9f9e9f18aa350519485c38158c2d93} 
+\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}!campaign@{campaign}}
+\index{campaign@{campaign}!bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+\doxysubsubsection{\texorpdfstring{campaign}{campaign}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner.\+campaign = models.\+Foreign\+Key(\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Campaign}{Campaign}}, on\+\_\+delete=models.\+CASCADE, verbose\+\_\+name="{}Kampaniya"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Banner_a4c77bddf80ea7afe2f7533ede86e8686}\label{classbannerflow__app_1_1models_1_1Banner_a4c77bddf80ea7afe2f7533ede86e8686} 
+\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}!created\_at@{created\_at}}
+\index{created\_at@{created\_at}!bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+\doxysubsubsection{\texorpdfstring{created\_at}{created\_at}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner.\+created\+\_\+at = models.\+Date\+Time\+Field(auto\+\_\+now\+\_\+add=True)\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Banner_ae25f5c62d1bc8f795dda4499c029c0e0}\label{classbannerflow__app_1_1models_1_1Banner_ae25f5c62d1bc8f795dda4499c029c0e0} 
+\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}!is\_active@{is\_active}}
+\index{is\_active@{is\_active}!bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+\doxysubsubsection{\texorpdfstring{is\_active}{is\_active}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner.\+is\+\_\+active = models.\+Boolean\+Field(default=True, verbose\+\_\+name="{}Aktiven"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Banner_abdd5dbc2fe8c81f00e0808e4ac9ab6ee}\label{classbannerflow__app_1_1models_1_1Banner_abdd5dbc2fe8c81f00e0808e4ac9ab6ee} 
+\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}!media\_file@{media\_file}}
+\index{media\_file@{media\_file}!bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+\doxysubsubsection{\texorpdfstring{media\_file}{media\_file}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner.\+media\+\_\+file\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ models.FileField(}
+\DoxyCodeLine{\ \ \ \ upload\_to=\textcolor{stringliteral}{'banners/\%Y/\%m/\%d/'},\ }
+\DoxyCodeLine{\ \ \ \ verbose\_name=\textcolor{stringliteral}{"{}Mediafayl"{}},}
+\DoxyCodeLine{\ \ \ \ help\_text=\textcolor{stringliteral}{"{}Podderzhivaemye\ formaty:\ PNG,\ JPG,\ MP4"{}},}
+\DoxyCodeLine{\ \ \ \ validators=[validate\_media\_file]}
+\DoxyCodeLine{)}
+
+\end{DoxyCode}
+\Hypertarget{classbannerflow__app_1_1models_1_1Banner_a9c738179907383895a5173244353b7e5}\label{classbannerflow__app_1_1models_1_1Banner_a9c738179907383895a5173244353b7e5} 
+\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}!media\_type@{media\_type}}
+\index{media\_type@{media\_type}!bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+\doxysubsubsection{\texorpdfstring{media\_type}{media\_type}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner.\+media\+\_\+type = models.\+Char\+Field(max\+\_\+length=10, choices=\mbox{\hyperlink{classbannerflow__app_1_1models_1_1Banner_ae6410e71c613f97b0bc1c3663340809e}{MEDIA\+\_\+\+TYPE\+\_\+\+CHOICES}}, verbose\+\_\+name="{}Tip media"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{classbannerflow__app_1_1models_1_1Banner_ae6410e71c613f97b0bc1c3663340809e}\label{classbannerflow__app_1_1models_1_1Banner_ae6410e71c613f97b0bc1c3663340809e} 
+\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}!MEDIA\_TYPE\_CHOICES@{MEDIA\_TYPE\_CHOICES}}
+\index{MEDIA\_TYPE\_CHOICES@{MEDIA\_TYPE\_CHOICES}!bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+\doxysubsubsection{\texorpdfstring{MEDIA\_TYPE\_CHOICES}{MEDIA\_TYPE\_CHOICES}}
+{\footnotesize\ttfamily list bannerflow\+\_\+app.\+models.\+Banner.\+MEDIA\+\_\+\+TYPE\+\_\+\+CHOICES\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \ [}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'image'},\ \textcolor{stringliteral}{'Izobrazhenie'}),}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ (\textcolor{stringliteral}{'video'},\ \textcolor{stringliteral}{'Video'}),}
+\DoxyCodeLine{\ \ \ \ ]}
+
+\end{DoxyCode}
+\Hypertarget{classbannerflow__app_1_1models_1_1Banner_afc98cbfc4a30e91f64a7d42cb612b27d}\label{classbannerflow__app_1_1models_1_1Banner_afc98cbfc4a30e91f64a7d42cb612b27d} 
+\index{bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}!title@{title}}
+\index{title@{title}!bannerflow\_app.models.Banner@{bannerflow\_app.models.Banner}}
+\doxysubsubsection{\texorpdfstring{title}{title}}
+{\footnotesize\ttfamily bannerflow\+\_\+app.\+models.\+Banner.\+title = models.\+Char\+Field(max\+\_\+length=255, verbose\+\_\+name="{}Nazvanie bannera"{})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+bannerflow\+\_\+app/\mbox{\hyperlink{models_8py}{models.\+py}}\end{DoxyCompactItemize}

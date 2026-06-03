@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['height_0',['height',['../classbannerflow__app_1_1models_1_1BannerTemplate.html#afa9f06260273f1624998217ce6187a5b',1,'bannerflow_app::models::BannerTemplate']]],
-  ['home_1',['home',['../namespacebannerflow__app_1_1views.html#a51170374da837380113b5b4ebf1337db',1,'bannerflow_app::views']]],
-  ['html_5fcontent_2',['html_content',['../classbannerflow__app_1_1models_1_1GeneratedBanner.html#aac127e35f5af8eb63fc4ac72d2dbf953',1,'bannerflow_app::models::GeneratedBanner']]],
-  ['html_5ftemplate_3',['html_template',['../classbannerflow__app_1_1models_1_1BannerTemplate.html#a6d227b3ed4bcc5370ee71059ca0b5f6c',1,'bannerflow_app::models::BannerTemplate']]]
+  ['imported_5fat_0',['imported_at',['../classbannerflow__app_1_1models_1_1GameData.html#aeae17646d076069e87c9520364fe5ffe',1,'bannerflow_app::models::GameData']]],
+  ['impressions_1',['impressions',['../classbannerflow__app_1_1models_1_1CampaignStatistics.html#a24a6e07b520eb946d4691d5965d73c46',1,'bannerflow_app::models::CampaignStatistics']]],
+  ['inlines_2',['inlines',['../classbannerflow__app_1_1admin_1_1CustomUserAdmin.html#a2acbaaa9d8f16c6cbd0a35748bc8148d',1,'bannerflow_app::admin::CustomUserAdmin']]],
+  ['installed_5fapps_3',['INSTALLED_APPS',['../namespacebannerflow__project_1_1settings.html#abce87bf308fbdc48812c0b97b29c68b1',1,'bannerflow_project::settings']]],
+  ['is_5fab_5ftest_4',['is_ab_test',['../classbannerflow__app_1_1models_1_1Campaign.html#a21a9959ec830b1668f5e76ec3d2d3777',1,'bannerflow_app::models::Campaign']]],
+  ['is_5factive_5',['is_active',['../classbannerflow__app_1_1models_1_1Banner.html#ae25f5c62d1bc8f795dda4499c029c0e0',1,'bannerflow_app.models.Banner.is_active'],['../classbannerflow__app_1_1models_1_1ABTest.html#a133213047e26563058c903609cf68b53',1,'bannerflow_app.models.ABTest.is_active']]]
 ];
